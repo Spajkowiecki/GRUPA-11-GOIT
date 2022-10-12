@@ -1,0 +1,21 @@
+Ważne dane:
+GŁÓWNE USTAWIENIA:
+TEKST: t_*
+- t_primarySize: 16px;
+- t_secondSize: 14px; 
+- t_familyFont: 
+TEXT & COLOR mix: t-c_*
+- t-c_primaryColor: c_black;
+- t-c_secondColor: c_darkPink;
+- t-c_thirdColor: c_lightPink; 
+- t-c_fourthColor: #907E82;
+KOLORY: c_*
+- c_black: #000;
+- c_white: #fff;
+- c_darkPink: #D41443;
+- c_darkPink2: #D41342;
+- c_lightPink: #FFA5BA
+- c_ultraLightPink: #FFF5F6;
+
+- c_lightGreen: #C2E297;
+- c_lightBrown: #F0D1A5;
