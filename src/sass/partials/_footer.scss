@@ -1,6 +1,10 @@
 @import '../variables';
 @import '../container';
 
+footer{
+    background-color: $c_ultraLightPink;
+}
+
 .slogan{
     &__h-light{
         @include header-font;
@@ -8,6 +12,9 @@
 }
 
 .rights{
+    height: 73px;
+    padding-top: 29px;
+    border-top: 1px solid #e1e1e1;
     &__content{
         display: block;
     }

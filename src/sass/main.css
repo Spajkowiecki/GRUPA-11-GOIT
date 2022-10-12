@@ -66,6 +66,10 @@ MAIN SETTINGS OF PROJECT
     padding: 0;
   }
 }
+footer {
+  background-color: #fff5f6;
+}
+
 .slogan__h-light {
   color: #d41443;
   font-family: "Titan One", cursive;
@@ -87,6 +91,11 @@ MAIN SETTINGS OF PROJECT
   }
 }
 
+.rights {
+  height: 73px;
+  padding-top: 29px;
+  border-top: 1px solid #e1e1e1;
+}
 .rights__content {
   display: block;
 }
