@@ -46,4 +46,59 @@ body {
     width: 1280px;
     padding: 0;
   }
+}
+/*
+MAIN SETTINGS OF PROJECT
+*/
+.container {
+  min-width: 320px;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 34px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0;
+  }
+}
+.slogan__h-light {
+  color: #d41443;
+  font-family: "Titan One", cursive;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 767px) {
+  .slogan__h-light {
+    font-size: 48px;
+    letter-spacing: 0.06rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slogan__h-light {
+    font-size: 58px;
+    line-height: 1.14;
+  }
+}
+
+.rights__content {
+  display: block;
+}
+.rights__reserved {
+  display: block;
+}
+
+@media screen and (min-width: 767px) {
+  .slogan__main {
+    display: flex;
+  }
+  .rights {
+    display: flex;
+  }
 }/*# sourceMappingURL=main.css.map */

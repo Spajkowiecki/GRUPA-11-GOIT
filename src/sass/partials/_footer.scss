@@ -1,0 +1,27 @@
+@import '../variables';
+@import '../container';
+
+.slogan{
+    &__h-light{
+        @include header-font;
+    }
+}
+
+.rights{
+    &__content{
+        display: block;
+    }
+    &__reserved{
+        display: block;
+    }
+}
+@media screen and (min-width:767px) {
+    .slogan{
+        &__main{
+            display: flex;
+        }
+    }
+    .rights{
+        display: flex;
+    } 
+}
