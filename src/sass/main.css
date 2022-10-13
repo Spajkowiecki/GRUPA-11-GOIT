@@ -31,41 +31,9 @@ body {
   color: #000;
 }
 
-.container {
-  min-width: 320px;
-  padding: 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    padding: 0 34px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0;
-  }
-}
 /*
 MAIN SETTINGS OF PROJECT
 */
-.container {
-  min-width: 320px;
-  padding: 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    padding: 0 34px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0;
-  }
-}
 footer {
   background-color: #fff5f6;
 }
@@ -90,8 +58,33 @@ footer {
     line-height: 1.14;
   }
 }
+.slogan__main {
+  color: #ffa5ba;
+  font-family: "Titan One", cursive;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 767px) {
+  .slogan__main {
+    font-size: 26px;
+    letter-spacing: 0.04rem;
+    line-height: 1.15;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slogan__main {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+
+.socials {
+  display: flex;
+}
 
 .rights {
+  justify-content: center;
   height: 73px;
   padding-top: 29px;
   border-top: 1px solid #e1e1e1;

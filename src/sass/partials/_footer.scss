@@ -1,5 +1,4 @@
 @import '../variables';
-@import '../container';
 
 footer{
     background-color: $c_ultraLightPink;
@@ -9,9 +8,17 @@ footer{
     &__h-light{
         @include header-font;
     }
+    &__main{
+        @include header-support-font;
+    }
+}
+
+.socials{
+    display: flex;
 }
 
 .rights{
+    justify-content: center;
     height: 73px;
     padding-top: 29px;
     border-top: 1px solid #e1e1e1;
