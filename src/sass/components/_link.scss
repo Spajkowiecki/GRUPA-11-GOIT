@@ -1,0 +1,21 @@
+@import './../variables';
+a {
+  color: getColor('c_white');
+  &:hover {
+    color: getColor('c_darkPink');
+  }
+}
+
+.link {
+  &__button {
+    &--pink {
+      color: getColor('c_white');
+      background-color: getColor('c_darkPink');
+    }
+
+    &--white {
+      color: getColor('c_darkPink');
+      background-color: getColor('c_white');
+    }
+  }
+}
