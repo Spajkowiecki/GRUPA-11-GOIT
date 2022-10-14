@@ -1,0 +1,58 @@
+@import './../variables';
+@import './../components/button';
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 20px 0px 20px;
+}
+
+nav {
+  ul {
+    display: none;
+    font-weight: 700;
+    gap: 35px;
+  }
+}
+
+.header {
+  &__page {
+    position: relative;
+    background: getColor('c_lightPink1');
+    height: 502px;
+    overflow: hidden;
+  }
+  &__button {
+    @include button(159px, 44px, getColor('c_darkPink'), getColor('c_white'));
+    font-weight: 700;
+  }
+  &__buttons {
+    display: flex;
+    gap: 30px;
+  }
+  &__button {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) {
+  header {
+    margin-top: 6px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    &__button {
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  header {
+    nav {
+      display: flex;
+    }
+  }
+}

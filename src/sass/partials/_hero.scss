@@ -1,1 +1,83 @@
 @import './../variables';
+@import './../components/button';
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Titan One', sans-serif;
+  letter-spacing: 0.04em;
+
+  &__milk {
+    display: none;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__left {
+    margin-left: 20px;
+  }
+
+  &__right {
+    .right {
+      &__up {
+        display: none;
+      }
+      &__down {
+        display: none;
+      }
+    }
+  }
+
+  &__text {
+    padding-top: 15px;
+    padding-bottom: 19px;
+    font-size: 26px;
+
+    line-height: auto;
+    .text1 {
+      color: getColor('c_white');
+    }
+    .text2 {
+      font-size: 48px;
+      color: getColor('c_darkPink');
+      line-height: 46.32px;
+    }
+  }
+}
+
+@media screen and(min-width: 320px) and(max-width: 320px) {
+}
+
+@media screen and(min-width: 768px) {
+  .hero {
+    background-size: 143px 336px;
+    background-position: 117px 92px;
+
+    &__subtext {
+    }
+
+    &__milk {
+      margin-top: 19px;
+      display: inline-flex;
+
+      p {
+        color: getColor('c_white');
+        font-family: 'DM Sans';
+        width: 114px;
+        font-size: 8px;
+        margin-bottom: 7px;
+      }
+    }
+    &__text {
+      padding-bottom: 20px;
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .hero__text {
+    padding-bottom: 25px;
+  }
+}

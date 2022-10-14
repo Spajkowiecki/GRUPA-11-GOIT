@@ -1,0 +1,90 @@
+@import './../variables';
+
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+@media (min-width: 1280px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 502px;
+  padding: 21px;
+  background-color: getColor('c_lightPink2');
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+@media screen and(min-width: 768px) {
+  .menu-container {
+    height: 1020px;
+  }
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+}
+
+.mobile-menu {
+  font-family: $t_fontFamily;
+  padding-top: 19px;
+  li {
+    padding-top: 13px;
+    padding-bottom: 11px;
+    border-top: 1px solid getColor('c_lightPink3');
+    &:last-child {
+      border-bottom: 1px solid getColor('c_lightPink3');
+    }
+  }
+}
+
+.mobile-menu {
+  .link {
+    font-weight: bold;
+  }
+}
+
+.mobile-button {
+  width: 210px;
+  height: 44px;
+  border-radius: 50px;
+  background: getColor('c_white');
+  color: getColor('c_darkPink');
+  font-weight: bold;
+}
+.mobile-content {
+  padding-top: 60px;
+}

@@ -9,5 +9,5 @@ body {
   font-size: $t_primarySize;
   min-width: 320px;
   //font color
-  color: $c_black;
+  color: getColor('c_black');
 }
