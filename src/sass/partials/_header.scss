@@ -5,12 +5,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 6px;
   padding: 6px 20px 0px 20px;
 }
 
 nav {
+  display: none;
   ul {
-    display: none;
+    display: flex;
     font-weight: 700;
     gap: 35px;
   }
@@ -36,11 +38,6 @@ nav {
   }
 }
 
-@media (min-width: 320px) {
-  header {
-    margin-top: 6px;
-  }
-}
 @media (min-width: 768px) {
   .header {
     &__button {
@@ -49,7 +46,7 @@ nav {
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and(min-width: 1280px) {
   header {
     nav {
       display: flex;
