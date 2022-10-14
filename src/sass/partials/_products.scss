@@ -1,3 +1,6 @@
+
+@import './../variables';
+
 .products {
   display: flex;
   flex-direction: column;
@@ -12,7 +15,7 @@
     line-height: 1.17;
     text-align: center;
     text-transform: uppercase;
-    color: $c_lightPink;
+    color: getColor('c_lightPink');
     padding-top: 121px;
   }
   &__heading {
@@ -22,7 +25,9 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: $c_darkPink;
+
+    color: getColor('c_darkPink');
+
     padding: 15px 0 144px;
   }
   &__list {
@@ -38,7 +43,8 @@
     height: 485px;
     border-radius: 24px;
     &:nth-of-type(1) {
-      background: $c_lightPink2;
+      background: getColor('c_lightPink2');
+
       margin: 0 20px 110px;
       position: relative;
     }
@@ -55,7 +61,8 @@
       transform: translate(-50%, -113px);
     }
     &:nth-of-type(2) {
-      background: $c_lightBrown;
+      background: getColor('c_lightBrown');
+
       margin: 0 20px 109px;
       position: relative;
     }
@@ -72,7 +79,8 @@
       transform: translate(-50%, -113px);
     }
     &:nth-of-type(3) {
-      background: $c_lightGreen;
+      background: getColor('c_lightGreen');
+
       margin: 0 20px 98px;
       position: relative;
     }
@@ -97,7 +105,8 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: $c_white;
+    color: getColor('c_white');
+
     margin-top: 161px;
     &::after {
       content: '';
@@ -117,7 +126,8 @@
     line-height: 1.52;
     text-align: center;
     letter-spacing: 0.04em;
-    color: $c_white;
+    color: getColor('c_white');
+
   }
   &__btn {
     width: 40px;
@@ -139,7 +149,8 @@
     z-index: 1;
     transform: scale(0);
     border-radius: 5px;
-    background-color: white;
+    background-color: getColor('c_white');
+
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -157,7 +168,8 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid $c_black;
+    border: 1px solid getColor('c_black');
+
     background-color: inherit;
     cursor: pointer;
   }
@@ -168,12 +180,14 @@
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    color: $c_black;
+    color: getColor('c_black');
+
     padding-bottom: 10px;
   }
   &__box-list {
     padding: 10px;
-    border: 1px dashed $c_darkPink2;
+    border: 1px dashed getColor('c_darkPink2');
+
     border-radius: 5px;
   }
   &__box-item {
