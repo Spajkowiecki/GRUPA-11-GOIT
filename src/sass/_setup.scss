@@ -6,7 +6,13 @@ html {
 
 body {
   //default font size
-  font-size: $t_primarySize;
+  font-size: 12px;
   //font color
   color: $c_black;
+  @media screen and (min-width:767px) {
+    font-size: $t_secondSize;
+}
+  @media screen and (min-width:1199px) {
+    font-size: $t_primarySize;
+}
 }

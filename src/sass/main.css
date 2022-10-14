@@ -26,8 +26,18 @@ html {
 }
 
 body {
-  font-size: 16px;
+  font-size: 12px;
   color: #000;
+}
+@media screen and (min-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  body {
+    font-size: 16px;
+  }
 }
 
 /*
@@ -50,7 +60,8 @@ footer .container {
 }
 @media screen and (min-width: 1199px) {
   footer .container {
-    max-width: 1045;
+    max-width: 1045px;
+    margin: 0 auto;
   }
 }
 
@@ -60,6 +71,7 @@ footer .container {
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
+  font-weight: 400;
 }
 @media screen and (min-width: 767px) {
   .slogan__main {
@@ -128,15 +140,9 @@ footer .container {
   font-size: 13px;
   margin-top: 46px;
 }
-@media screen and (min-width: 767px) {
-  .socials__contact {
-    font-size: 14px;
-  }
-}
 @media screen and (min-width: 1199px) {
   .socials__contact {
     margin-top: 50px;
-    font-size: 16px;
   }
 }
 .socials__link {
