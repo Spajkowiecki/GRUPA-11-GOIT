@@ -8,8 +8,8 @@ footer{
         padding: 0 20px;
         @media screen and (min-width:767px){
             padding: 0 36px;
-            display: grid;
-            grid-template-columns: auto auto;
+            display: flex;
+            justify-content: space-between;
         }
         @media screen and (min-width:1199px){
             max-width: 1045px;
@@ -22,7 +22,7 @@ footer{
     &__main{
         @include header-support-font;
         font-weight: 400;
-        @media screen and (min-width:779px) {
+        @media screen and (min-width:1199px) {
             display: flex;
         }
     }

@@ -54,8 +54,8 @@ footer .container {
 @media screen and (min-width: 767px) {
   footer .container {
     padding: 0 36px;
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1199px) {
@@ -86,7 +86,7 @@ footer .container {
     line-height: 1.13;
   }
 }
-@media screen and (min-width: 779px) {
+@media screen and (min-width: 1199px) {
   .slogan__main {
     display: flex;
   }
