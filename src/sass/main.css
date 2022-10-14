@@ -27,7 +27,6 @@ html {
 
 body {
   font-size: 16px;
-  min-width: 320px;
   color: #000;
 }
 
@@ -36,28 +35,25 @@ MAIN SETTINGS OF PROJECT
 */
 footer {
   background-color: #fff5f6;
+  font-weight: 700;
 }
-
-.slogan__h-light {
-  color: #d41443;
-  font-family: "Titan One", cursive;
-  font-size: 34px;
-  line-height: 1.15;
-  letter-spacing: 0.04rem;
-  text-transform: uppercase;
+footer .container {
+  min-width: 320px;
+  padding: 0 20px;
 }
 @media screen and (min-width: 767px) {
-  .slogan__h-light {
-    font-size: 48px;
-    letter-spacing: 0.06rem;
+  footer .container {
+    padding: 0 36px;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
-@media screen and (min-width: 1200px) {
-  .slogan__h-light {
-    font-size: 58px;
-    line-height: 1.14;
+@media screen and (min-width: 1199px) {
+  footer .container {
+    max-width: 1045;
   }
 }
+
 .slogan__main {
   color: #ffa5ba;
   font-family: "Titan One", cursive;
@@ -78,29 +74,98 @@ footer {
     line-height: 1.13;
   }
 }
+@media screen and (min-width: 779px) {
+  .slogan__main {
+    display: flex;
+  }
+}
+.slogan__h-light {
+  color: #d41443;
+  font-family: "Titan One", cursive;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  margin-top: 17px;
+  margin-bottom: 43px;
+}
+@media screen and (min-width: 767px) {
+  .slogan__h-light {
+    font-size: 48px;
+    letter-spacing: 0.06rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .slogan__h-light {
+    font-size: 58px;
+    line-height: 1.14;
+  }
+}
+@media screen and (min-width: 779px) {
+  .slogan__h-light {
+    margin-bottom: 91px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .slogan__h-light {
+    margin-bottom: 97px;
+  }
+}
 
-.socials {
+.socials__list {
+  width: 152.47px;
   display: flex;
+  justify-content: space-between;
+}
+.socials__container {
+  display: flex;
+  justify-content: right;
+}
+.socials__item {
+  cursor: pointer;
+}
+.socials__contact {
+  font-size: 13px;
+  margin-top: 46px;
+}
+@media screen and (min-width: 767px) {
+  .socials__contact {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .socials__contact {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+}
+.socials__link {
+  color: #d41443;
 }
 
 .rights {
   justify-content: center;
   height: 73px;
-  padding-top: 29px;
   border-top: 1px solid #e1e1e1;
+  color: #907e82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rights__container {
+  display: block;
 }
 .rights__content {
   display: block;
+  font-size: 14px;
 }
 .rights__reserved {
   display: block;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 767px) {
-  .slogan__main {
-    display: flex;
-  }
-  .rights {
+  .rights__container {
     display: flex;
   }
 }/*# sourceMappingURL=main.css.map */

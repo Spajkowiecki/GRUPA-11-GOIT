@@ -2,40 +2,95 @@
 
 footer{
     background-color: $c_ultraLightPink;
+    font-weight: 700;
+    .container{
+        min-width: 320px;
+        padding: 0 20px;
+        @media screen and (min-width:767px){
+            padding: 0 36px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        @media screen and (min-width:1199px){
+            max-width: 1045;
+        }
+    }
 }
 
 .slogan{
-    &__h-light{
-        @include header-font;
-    }
     &__main{
         @include header-support-font;
+        @media screen and (min-width:779px) {
+            display: flex;
+        }
     }
+    &__h-light{
+        @include header-font;
+        margin-top: 17px;
+        margin-bottom: 43px;
+        @media screen and (min-width:779px) {
+            margin-bottom: 91px;
+        }
+        @media screen and (min-width:1199px) {
+            margin-bottom: 97px;
+        }
+    }
+
 }
 
 .socials{
-    display: flex;
+    &__list{
+        width: 152.47px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__container{
+        display: flex;
+        justify-content: right;
+    }
+    &__item{
+        cursor: pointer;
+    }
+    &__contact{
+        font-size: 13px;
+        margin-top: 46px;
+        @media screen and (min-width:767px) {
+            font-size: 14px;
+        }
+        @media screen and (min-width:1199px) {
+            margin-top: 50px;
+            font-size: 16px;
+        }
+    }
+    &__link{
+        color: $c_darkPink;
+    }
 }
 
 .rights{
     justify-content: center;
     height: 73px;
-    padding-top: 29px;
     border-top: 1px solid #e1e1e1;
+    color: $t-c_fourthColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__container{
+        display: block;
+    }
     &__content{
         display: block;
+        font-size: 14px;
     }
     &__reserved{
         display: block;
+        font-size: 14px;
     }
 }
 @media screen and (min-width:767px) {
-    .slogan{
-        &__main{
-            display: flex;
+    .rights{
+        &__container{
+        display: flex;
         }
     }
-    .rights{
-        display: flex;
-    } 
 }
