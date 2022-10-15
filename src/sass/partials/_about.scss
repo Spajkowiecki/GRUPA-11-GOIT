@@ -1,10 +1,10 @@
 .about-container {
-  padding: 125px 0;
-  max-width: 320px;
+  padding: 116px 0 39px 0;
   width: 100%;
+  margin: auto;
+  background-color: #fff5f6;
 }
 .about {
-  background-color: #fff5f6;
   &__header {
     text-align: center;
     align-items: center;
@@ -51,6 +51,7 @@
   }
   &__box {
     padding: 46px 50px 0;
+    margin: auto;
   }
   &__text {
     color: #907e82;
@@ -77,7 +78,6 @@
     max-width: 176px;
     width: 100%;
     border-radius: 22px;
-    margin-left: 50px;
   }
   &__btn-icon {
     margin-left: 13.62px;
@@ -85,4 +85,20 @@
 }
 .about-descr__box p {
   margin: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .about-descr__background {
+    background-image: none;
+  }
+  .about-descr {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-descr__img {
+    margin-right: 0;
+  }
+  .about-descr__box {
+    margin-left: 0;
+    padding-left: 17px;
+  }
 }
