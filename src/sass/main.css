@@ -1163,4 +1163,150 @@ MAIN SETTINGS OF PROJECT
   .products__item:nth-of-type(3)::before {
     background-image: url("../images/products/shake_big@2x.png");
   }
+}
+.about-container {
+  padding: 116px 0 39px 0;
+  width: 100%;
+  margin: auto;
+  background-color: #fff5f6;
+}
+
+.about__header {
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 0 60px 26px;
+}
+.about__label {
+  color: #ffa5ba;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.about__title {
+  color: #d41443;
+  font-size: 34px;
+  line-height: 1.147;
+  letter-spacing: 0.04em;
+  padding-top: 15px;
+}
+.about__label, .about__title {
+  font-family: "Titan One";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.about-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about-descr__img {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  margin: auto;
+}
+.about-descr__background {
+  background-image: url(../images/about/about-bg.png);
+  max-width: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.about-descr__box {
+  padding: 46px 50px 0;
+  margin: auto;
+}
+.about-descr__text {
+  color: #907e82;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  padding-bottom: 20px;
+}
+.about-descr__text--black {
+  color: #000000;
+  padding-bottom: 25px;
+}
+.about-descr__btn {
+  background-color: #ffffff;
+  color: #d41443;
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 700;
+  font-family: "DM Sans";
+  border: none;
+  text-align: center;
+  height: 44px;
+  max-width: 176px;
+  width: 100%;
+  border-radius: 22px;
+}
+.about-descr__btn-icon {
+  margin-left: 13.62px;
+}
+
+.about-descr__box p {
+  margin: 0;
+}
+
+/*.about-desrc__read {
+  border radius:4%;
+  border 1 px solid #d41443;
+  background-color: #ffa5ba;
+  padding:20px;
+  color:#907e82; */
+@media screen and (min-width: 768px) {
+  .about-descr__background {
+    background-image: none;
+  }
+  .about-descr {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-descr__img {
+    margin-right: 0;
+  }
+  .about-descr__box {
+    margin-left: 0;
+    padding-left: 17px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about__header {
+    padding-bottom: 0px;
+  }
+  .about-descr {
+    gap: 74px;
+  }
+  .about-descr__img {
+    margin-right: 0;
+    max-width: 516px;
+    height: 516px;
+    margin-top: 55px;
+  }
+  .about-descr__box {
+    margin-left: 0;
+    max-width: 463px;
+    padding-left: 0px;
+    padding-top: 0;
+    padding-right: 50;
+  }
+  .about-desrc__text {
+    font-size: 14px;
+    line-height: 1.94;
+    padding-bottom: 20px;
+    letter-spacing: 0.56px;
+  }
+  .about-desrc__text--black {
+    padding-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.76;
+  }
+  .about-descr__btn {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
