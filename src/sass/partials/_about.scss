@@ -1,0 +1,96 @@
+/* roboczy stylesheet do about */
+body {
+  font-family: 'DM sans', 'Titan One', sans-serif;
+}
+.label,
+.title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.label {
+  color: #ffa5ba;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.title {
+  color: #d41443;
+  font-size: 34px;
+  line-height: 1.147;
+  letter-spacing: 0.04em;
+  padding-top: 15px;
+}
+ul {
+  list-style: none;
+}
+.about-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about-descr__img {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  margin: auto;
+}
+.about-descr__background {
+  background-image: url(../images/about/about-bg.png);
+  max-width: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.about-container {
+  padding: 125px 0;
+  max-width: 320px;
+  width: 100%;
+}
+.about {
+  background-color: #fff5f6;
+}
+.about__title {
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 0 60px 26px;
+}
+.about-descr__box {
+  padding: 46px 50px 0;
+}
+.about-descr__box p {
+  margin: 0;
+}
+.about-descr__text {
+  color: #907e82;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+  padding-bottom: 20px;
+}
+.about-descr__text--black {
+  color: #000000;
+  padding-bottom: 25px;
+}
+.about-descr__btn {
+  background-color: #ffffff;
+  color: #d41443;
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 700;
+  font-family: 'DM Sans';
+  border: none;
+  text-align: center;
+  height: 44px;
+  max-width: 176px;
+  width: 100%;
+  border-radius: 22px;
+  margin-left: 50px;
+}
+.about-descr__btn-icon {
+  margin-left: 13.62px;
+}
