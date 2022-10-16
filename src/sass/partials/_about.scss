@@ -1,14 +1,18 @@
 .about-container {
-  padding: 116px 0 39px 0;
+  padding-top: 116px;
   width: 100%;
   margin: auto;
   background-color: #fff5f6;
 }
 .about {
+  background-image: url(../images/about/about-bg.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
   &__header {
     text-align: center;
     align-items: center;
-    margin-left: auto;
     padding: 0 60px 26px;
   }
   &__label {
@@ -28,7 +32,6 @@
     font-family: 'Titan One';
     font-weight: 400;
     margin: 0;
-    padding: 0;
   }
 }
 .about-descr {
@@ -59,10 +62,13 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 1.62;
-    padding-bottom: 20px;
+
     &--black {
       color: #000000;
       padding-bottom: 25px;
+    }
+    &--padding {
+      padding-bottom: 17px;
     }
   }
   &__btn {
@@ -78,20 +84,37 @@
     max-width: 176px;
     width: 100%;
     border-radius: 22px;
+    margin: auto;
   }
   &__btn-icon {
     margin-left: 13.62px;
   }
 }
+
 .about-descr__box p {
   margin: 0;
 }
-/*.about-desrc__read {
-  border radius:4%;
-  border 1 px solid #d41443;
-  background-color: #ffa5ba;
-  padding:20px;
-  color:#907e82; */
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about-descr__background {
+    background-image: url(../images/about/about-bg-@2x.png);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about {
+    background-image: url(../images/about/about-bg-@2x.png);
+  }
+}
+@media screen and(max-width: 1279px) {
+  .about {
+    background-image: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .about-descr__background {
     background-image: none;
@@ -99,48 +122,82 @@
   .about-descr {
     display: flex;
     flex-direction: row;
+    &__box {
+      margin-left: 0;
+      padding-left: 17px;
+      padding-right: 0;
+      max-width: 340px;
+    }
+    &__img {
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about__title {
+    padding-top: 16px;
+  }
+  .about-descr__text {
+    font-size: 14px;
+    line-height: 1.78;
+    &--black {
+      color: #000000;
+      padding-bottom: 25px;
+    }
+  }
+  .about-descr__btn {
+    margin-top: 62px;
   }
   .about-descr__img {
-    margin-right: 0;
-  }
-  .about-descr__box {
-    margin-left: 0;
-    padding-left: 17px;
+    margin-top: 0;
+    width: 100%;
+    max-width: 340px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about__header {
     padding-bottom: 0px;
   }
+  .about__label {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .about__title {
+    font-size: 58px;
+    line-height: 1.13;
+  }
   .about-descr {
     gap: 74px;
-  }
-  .about-descr__img {
-    margin-right: 0;
-    max-width: 516px;
-    height: 516px;
-    margin-top: 55px;
-  }
-  .about-descr__box {
-    margin-left: 0;
-    max-width: 463px;
-    padding-left: 0px;
-    padding-top: 0;
-    padding-right: 50;
-  }
-  .about-desrc__text {
-    font-size: 14px;
-    line-height: 1.94;
-    padding-bottom: 20px;
-    letter-spacing: 0.56px;
-    &--black {
-      padding-bottom: 35px;
-      font-size: 16px;
-      line-height: 1.76;
+    &__img {
+      margin-right: 0;
+      max-width: 516px;
+      height: 516px;
+      margin-top: 55px;
+    }
+    &__box {
+      margin-left: 0;
+      max-width: 463px;
+      padding-left: 0px;
+      padding-top: 0;
+      padding-right: 0;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 1.928;
+      padding-bottom: 20px;
+      letter-spacing: 0.04em;
+      &--black {
+        padding-bottom: 35px;
+        font-size: 16px;
+        line-height: 1.76;
+      }
     }
   }
-
-  .about-descr__btn {
-    margin-top: 30px;
-  }
 }
+
+/*.about-desrc__read {
+  border radius:4%;
+  border 1 px solid #d41443;
+  background-color: #ffa5ba;
+  padding:20px;
+  color:#907e82; */
