@@ -1,12 +1,14 @@
+@import './../variables';
+
 .about-container {
   padding-top: 125px;
   width: 100%;
   margin: auto;
-  background-color: #fff5f6;
+  background-color: getColor('c_ultraLightPink');
 }
 .about {
   background-image: url(../images/about/about-bg.png);
-  background-position: bottom;
+  background-position: 0% 122%;
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
@@ -16,12 +18,12 @@
     padding: 0 60px 26px;
   }
   &__label {
-    color: #ffa5ba;
+    color: getColor('c_lightPink');
     font-size: 18px;
     line-height: 1.16;
   }
   &__title {
-    color: #d41443;
+    color: getColor('c_darkPink');
     font-size: 34px;
     line-height: 1.147;
     letter-spacing: 0.04em;
@@ -29,7 +31,7 @@
   }
   &__label,
   &__title {
-    font-family: 'Titan One';
+    font-family: $t_secondFontFamily;
     font-weight: 400;
     margin: 0;
   }
@@ -49,7 +51,7 @@
     max-width: 320px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: 0% 82%;
     background-size: contain;
   }
   &__box {
@@ -57,14 +59,14 @@
     margin: auto;
   }
   &__text {
-    color: #907e82;
-    font-family: 'DM Sans';
+    color: getColor('t-c_fourthColor');
+    font-family: $t_fontFamily;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.62;
 
     &--black {
-      color: #000000;
+      color: getColor('c_black');
       padding-bottom: 25px;
     }
     &--padding {
@@ -72,8 +74,8 @@
     }
   }
   &__btn {
-    background-color: #ffffff;
-    color: #d41443;
+    background-color: getColor('c_white');
+    color: getColor('c_darkPink');
     font-size: 14px;
     line-height: 1.28;
     font-weight: 700;
@@ -85,12 +87,15 @@
     width: 100%;
     border-radius: 22px;
     margin: auto;
+    margin-top: 17px;
+    &:hover {
+      background-color: getColor('c_lightGray');
+    }
   }
   &__btn-icon {
     margin-left: 13.62px;
   }
 }
-
 .about-descr__box p {
   margin: 0;
 }
@@ -141,7 +146,7 @@
     padding-top: 16px;
   }
   .about-descr__text {
-    font-size: 14px;
+    font-size: $t_secondSize;
     line-height: 1.78;
     &--black {
       color: #000000;
@@ -185,15 +190,18 @@
       padding-right: 0;
     }
     &__text {
-      font-size: 14px;
+      font-size: $t_secondSize;
       line-height: 1.928;
       padding-bottom: 20px;
       letter-spacing: 0.04em;
       &--black {
         padding-bottom: 35px;
-        font-size: 16px;
+        font-size: $t_primarySize;
         line-height: 1.76;
       }
+    }
+    &__btn {
+      margin-top: 45px;
     }
   }
 }
