@@ -5,20 +5,26 @@
             <h2 class="about__title">HOW IT&#39S MADE?</h2>
           </div>
           <div class="about-descr">
-            <img class="about-descr__img" src="./images/about/cow.png" srcset="./images/about/cow-@2x.png 2x, ./images/about/cow.png 1x" alt="picture of jug of milk and a cow behind it" />
-              <div class="about-descr__box about-descr__background">
-                    <p class="about-descr__text about-descr__text--black">
-                      Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
-                      lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
-                    </p>
-                    <p class="about-descr__text about-descr__text--padding">
-                      Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci
-                      in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
-                      maximus. Cras massa nibh, tincidunt.
-                    </p>
-                    <p class="about-descr__text">Aliquam erat volutpat. Aenean accumsan.</p>
-                    <button type="button" class="about-descr__btn">Read more<svg class="about-descr__btn-icon" width="5" height="8"><use href="./images/sprite.svg#ret-arrow"></use></svg>
-                    </button>
-              </div>
+            <picture class="about-descr__img">
+              <source srcset="./images/about/cow-big@2x.png 2x" media="(min-width:1280px) 2x"/>
+              <source srcset="./images/about/cow-big.png" media="(min-width:1280px)"/>
+              <source srcset="./images/about/cow-medium@2x.png 2x" media="(min-width:1280px) 2x"/>
+              <source srcset="./images/about/cow-medium.png" media="(min-width:768px)"/>
+              <img src="./images/about/cow-small.png" srcset="./images/about/cow-small@2x.png 2x" alt="picture of jug of milk and a cow behind it"/>
+            </picture>
+            <div class="about-descr__box about-descr__background">
+              <p class="about-descr__text about-descr__text--black">
+                Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+                lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+              </p>
+              <p class="about-descr__text about-descr__text--padding">
+                Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci
+                in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
+                maximus. Cras massa nibh, tincidunt.
+              </p>
+              <p class="about-descr__text">Aliquam erat volutpat. Aenean accumsan.</p>
+              <button type="button" class="about-descr__btn">Read more<svg class="about-descr__btn-icon" width="5" height="8"><use href="./images/sprite.svg#ret-arrow"></use></svg>
+              </button>
+            </div>
           </div>
     </section>
