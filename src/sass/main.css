@@ -115,11 +115,24 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< Updated upstream
   padding: 6px 20px 0px 20px;
 }
 
 nav ul {
   display: none;
+=======
+  margin-top: 6px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+nav {
+  display: none;
+}
+nav ul {
+  display: flex;
+>>>>>>> Stashed changes
   font-weight: 700;
   gap: 35px;
 }
@@ -127,6 +140,10 @@ nav ul {
 .header__page {
   position: relative;
   background: #ffb8ca;
+<<<<<<< Updated upstream
+=======
+  padding: 6px 20px 0px 20px;
+>>>>>>> Stashed changes
   height: 502px;
   overflow: hidden;
 }
@@ -145,20 +162,47 @@ nav ul {
   display: none;
 }
 
+<<<<<<< Updated upstream
 @media (min-width: 320px) {
   header {
     margin-top: 6px;
   }
 }
 @media (min-width: 768px) {
+=======
+@media (min-width: 768px) {
+  .header__page {
+    padding: 37px 34px 0px 34px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+>>>>>>> Stashed changes
   .header__button {
     display: inline-block;
   }
 }
+<<<<<<< Updated upstream
 @media (min-width: 1280px) {
   header nav {
     display: flex;
   }
+=======
+@media screen and (min-width: 1280px) {
+  header nav {
+    display: flex;
+  }
+  .header__page {
+    padding: 37px 97px 0px 46px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .header__button {
+    display: inline-block;
+    margin-right: 18px;
+  }
+>>>>>>> Stashed changes
 }
 /*
 MAIN SETTINGS OF PROJECT
@@ -284,6 +328,12 @@ button {
   justify-content: space-between;
   font-family: "Titan One", sans-serif;
   letter-spacing: 0.04em;
+<<<<<<< Updated upstream
+=======
+  max-width: 1280px;
+  padding-top: 137px;
+  margin: auto;
+>>>>>>> Stashed changes
 }
 .hero__milk {
   display: none;
@@ -293,6 +343,7 @@ button {
   gap: 15px;
 }
 .hero__left {
+<<<<<<< Updated upstream
   margin-left: 20px;
 }
 .hero__right .right__up {
@@ -303,6 +354,16 @@ button {
 }
 .hero__text {
   padding-top: 15px;
+=======
+  z-index: 5;
+}
+.hero__right {
+  display: none;
+  flex-direction: column;
+  z-index: 5;
+}
+.hero__text {
+>>>>>>> Stashed changes
   padding-bottom: 19px;
   font-size: 26px;
   line-height: auto;
@@ -320,6 +381,7 @@ button {
   .hero {
     background-size: 143px 336px;
     background-position: 117px 92px;
+<<<<<<< Updated upstream
   }
   .hero__milk {
     margin-top: 19px;
@@ -339,6 +401,98 @@ button {
 @media (min-width: 1280px) {
   .hero__text {
     padding-bottom: 25px;
+=======
+    padding-top: 12px;
+  }
+  .hero__milk {
+    display: flex;
+    padding-top: 19px;
+    padding-bottom: 28px;
+  }
+  .hero__milk .hero__image--milk {
+    width: 124px;
+    height: 126px;
+  }
+  .hero__milk .hero__subtext {
+    font-family: "DM Sans", sans-serif;
+    padding-top: 47px;
+    width: 114px;
+    height: 48px;
+    font-size: 8px;
+    color: #fff;
+    letter-spacing: 0em;
+  }
+  .hero__milk .hero__subtext .button--round {
+    padding-top: 7px;
+  }
+  .hero__text {
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: auto;
+  }
+  .hero__text .text1 {
+    color: #fff;
+  }
+  .hero__text .text2 {
+    font-size: 34px;
+    color: #d41443;
+    line-height: 30.77px;
+  }
+  .hero__right {
+    display: flex;
+  }
+  .hero__right .right__up {
+    font-family: "DM Sans", sans-serif;
+    margin-left: auto;
+    line-height: 12px;
+    text-align: center;
+    font-size: 8px;
+    color: #fff;
+  }
+  .hero__right .right__up img {
+    display: flex;
+  }
+  .hero__right .right__down {
+    display: flex;
+    margin-top: auto;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .hero__right .right__down img {
+    width: 168px;
+    height: 133px;
+    padding-right: 12px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 74px;
+  }
+  .hero__text, .hero__buttons {
+    padding-left: 69px;
+  }
+  .hero__milk {
+    display: flex;
+    padding-top: 19px;
+    padding-bottom: 28px;
+  }
+  .hero__milk .hero__image--milk {
+    width: 188px;
+    height: 191px;
+  }
+  .hero__milk .hero__subtext {
+    font-family: "DM Sans", sans-serif;
+    padding-top: 47px;
+    width: 200px;
+    height: 56px;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0em;
+  }
+  .hero__milk .hero__subtext .button--round {
+    padding-top: 20px;
+>>>>>>> Stashed changes
   }
 }
 /*
@@ -753,6 +907,7 @@ MAIN SETTINGS OF PROJECT
     background-image: url("../images/products/shake_big@2x.png");
   }
 }
+<<<<<<< Updated upstream
 /*
 MAIN SETTINGS OF PROJECT
 */
@@ -1163,5 +1318,473 @@ MAIN SETTINGS OF PROJECT
   }
   .products__item:nth-of-type(3)::before {
     background-image: url("../images/products/shake_big@2x.png");
+=======
+.contact {
+  padding: 0 50px;
+  background-image: linear-gradient(0deg, #fff5f6 92%, #fff 20%);
+  padding-top: 86px;
+  padding-bottom: 113px;
+  font-family: "DM Sans", sans-serif;
+}
+.contact__title {
+  display: none;
+}
+.contact__buttons {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+.contact__button-locations {
+  border: none;
+  background: #d41342;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  padding: 14px 17px;
+  margin-bottom: 10px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+.contact__button-franchise {
+  border: none;
+  background: #fff;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #d41342;
+  padding: 12px 33px;
+  line-height: 1.3;
+  border-radius: 22px;
+  cursor: pointer;
+}
+.contact__button-franchise:hover {
+  background-color: #ecebeb;
+}
+.contact__background-dot {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    background-image: linear-gradient(0deg, #fff5f6 78%, #fff 20%);
+    padding: 0 36px;
+    padding-top: 119px;
+    padding-bottom: 165px;
+  }
+  .contact__grid {
+    display: flex;
+    gap: 20px;
+    max-width: 1050px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .contact__buttons {
+    display: flex;
+    gap: 14.5px;
+    justify-content: center;
+  }
+  .contact__button-locations {
+    margin: 0;
+    width: 191.45px;
+    height: 44px;
+  }
+  .contact__button-franchise {
+    width: 191.45px;
+    height: 44px;
+  }
+}
+.contact-panel {
+  width: 100%;
+  margin: 0 auto;
+  padding: 43px 20px 43px 20px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  min-width: 220px;
+  max-width: 380px;
+}
+.contact-panel__label {
+  color: #fff;
+  background-color: #f0d1a5;
+  border-radius: 4px;
+  padding: 2px 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  display: inline-block;
+}
+.contact-panel__label--green {
+  background-color: #c2e297;
+}
+.contact-panel__place {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+  line-height: 1.83;
+}
+.contact-panel__description {
+  font-weight: 500;
+  font-size: 12px;
+  color: #907e82;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.contact-panel__days {
+  line-height: 1.83;
+  font-size: 12px;
+}
+.contact-panel__hours {
+  color: #ffa5ba;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 1.45;
+}
+.contact-panel__hours--margin-and-padding {
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 25px;
+}
+.contact-panel__mail {
+  text-decoration: none;
+  color: #907e82;
+  font-size: 12px;
+  display: block;
+  line-height: 1.5;
+}
+.contact-panel__tel {
+  text-decoration: none;
+  color: #907e82;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .contact .contact {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .contact-panel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 31px;
+    max-width: 100%;
+    margin-bottom: 81px;
+    flex-basis: calc((100% - 40px) / 3);
+  }
+  .contact-panel__label {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .contact-panel__place {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  .contact-panel__description {
+    font-size: 14px;
+    line-height: 1.64;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .contact-panel__days {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+  .contact-panel__hours {
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 1.47;
+  }
+  .contact-panel__hours--margin-and-padding {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .contact-panel__mail, .contact-panel__tel {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contact {
+    background-image: linear-gradient(0deg, #fff5f6 78%, #fff 20%);
+    padding-left: 115px;
+    padding-right: 115px;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact__background-dot {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+  }
+  .contact__button-locations {
+    width: 198px;
+  }
+  .contact__button-franchise {
+    width: 198px;
+  }
+  .contact-panel {
+    padding: 52px 44px 61px 44px;
+    margin-bottom: 86px;
+    flex-basis: calc((100% - 60px) / 3);
+    min-width: 330px;
+  }
+  .contact-panel__label {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .contact-panel__place {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .contact-panel__description {
+    font-size: 16px;
+    line-height: 1.64;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .contact-panel__days {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+  .contact-panel__hours {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.76;
+  }
+  .contact-panel__hours--margin-and-padding {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .contact-panel__mail, .contact-panel__tel {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+}
+/*
+MAIN SETTINGS OF PROJECT
+*/
+.about-container {
+  padding-top: 125px;
+  width: 100%;
+  margin: auto;
+  background-color: #fff5f6;
+}
+
+.about {
+  background-image: url(../images/about/about-bg.png);
+  background-position: 0% 122%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.about__header {
+  text-align: center;
+  align-items: center;
+  padding: 0 60px 26px;
+}
+.about__label {
+  color: #ffa5ba;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.about__title {
+  color: #d41443;
+  font-size: 34px;
+  line-height: 1.147;
+  letter-spacing: 0.04em;
+  padding-top: 15px;
+}
+.about__label, .about__title {
+  font-family: "Titan One", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+
+.about-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about-descr__img {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  margin: auto;
+}
+.about-descr__background {
+  background-image: url(../images/about/about-bg-small.png);
+  max-width: 480px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 82%;
+  background-size: contain;
+}
+.about-descr__box {
+  padding: 46px 50px 0;
+  margin: auto;
+  width: 100%;
+  max-width: 480px;
+}
+.about-descr__text {
+  color: #907e82;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+}
+.about-descr__text--black {
+  color: #000;
+  padding-bottom: 25px;
+}
+.about-descr__text--padding {
+  padding-bottom: 17px;
+}
+.about-descr__btn {
+  background-color: #fff;
+  color: #d41443;
+  font-size: 14px;
+  line-height: 1.28;
+  font-weight: 700;
+  font-family: "DM Sans";
+  border: none;
+  text-align: center;
+  height: 44px;
+  max-width: 176px;
+  width: 100%;
+  border-radius: 22px;
+  margin: auto;
+  margin-top: 17px;
+}
+.about-descr__btn:hover {
+  background-color: #ecebeb;
+}
+.about-descr__btn-icon {
+  margin-left: 13.62px;
+}
+
+.about-descr__box p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about-descr__background {
+    background-image: url(../images/about/about-bg-small@2x.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about {
+    background-image: url(../images/about/about-bg.png);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about {
+    background-image: url(../images/about/about-bg@2x.png);
+  }
+}
+@media screen and (max-width: 1279px) {
+  .about {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-descr__background {
+    background-image: none;
+  }
+  .about-descr {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-descr__box {
+    margin-left: 0;
+    padding-left: 17px;
+    padding-right: 0;
+    max-width: 340px;
+  }
+  .about-descr__img {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-container {
+    padding-top: 130px;
+  }
+  .about__title {
+    padding-top: 16px;
+  }
+  .about-descr__text {
+    font-size: 14px;
+    line-height: 1.78;
+  }
+  .about-descr__text--black {
+    color: #000000;
+    padding-bottom: 25px;
+  }
+  .about-descr__btn {
+    margin-top: 62px;
+  }
+  .about-descr__img {
+    margin-top: 0;
+    width: 100%;
+    max-width: 340px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about__header {
+    padding-bottom: 0px;
+  }
+  .about__label {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .about__title {
+    font-size: 58px;
+    line-height: 1.13;
+  }
+  .about-descr {
+    gap: 74px;
+  }
+  .about-descr__img {
+    margin-right: 0;
+    max-width: 516px;
+    height: 516px;
+    margin-top: 55px;
+  }
+  .about-descr__box {
+    margin-left: 0;
+    max-width: 463px;
+    padding-left: 0px;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  .about-descr__text {
+    font-size: 14px;
+    line-height: 1.928;
+    padding-bottom: 20px;
+    letter-spacing: 0.04em;
+  }
+  .about-descr__text--black {
+    padding-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.76;
+  }
+  .about-descr__btn {
+    margin-top: 45px;
+>>>>>>> Stashed changes
   }
 }/*# sourceMappingURL=main.css.map */
