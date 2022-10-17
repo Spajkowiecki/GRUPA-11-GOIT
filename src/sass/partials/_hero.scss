@@ -7,13 +7,7 @@
   font-family: 'Titan One', sans-serif;
   letter-spacing: 0.04em;
   max-width: 1280px;
-<<<<<<< Updated upstream
-  margin: auto;
-
-=======
   padding-top: 137px;
-  margin: auto;
->>>>>>> Stashed changes
   &__milk {
     display: none;
   }
@@ -26,9 +20,20 @@
     z-index: 5;
   }
 
+  &__mid {
+    position: absolute;
+    width: 346px;
+    height: 344px;
+    border-radius: 50%;
+    background: getColor('c_lightPink');
+    top: 83px;
+    left: 36px;
+  }
+
   &__right {
     display: none;
     flex-direction: column;
+
     z-index: 5;
   }
 
@@ -54,6 +59,13 @@
     background-position: 117px 92px;
     padding-top: 12px;
 
+    &__mid {
+      width: 324px;
+      height: 322px;
+      top: 31px;
+      left: 307px;
+    }
+
     &__milk {
       display: flex;
       padding-top: 19px;
@@ -67,6 +79,7 @@
         padding-top: 47px;
         width: 114px;
         height: 48px;
+        line-height: 12px;
         font-size: 8px;
         color: getColor('c_white');
         letter-spacing: 0em;
@@ -102,6 +115,14 @@
           img {
             display: flex;
           }
+          .up__16 {
+            width: 43px;
+            height: 34px;
+          }
+          .up__23 {
+            width: 44px;
+            height: 33px;
+          }
         }
         &__down {
           display: flex;
@@ -110,7 +131,6 @@
           img {
             width: 168px;
             height: 133px;
-            padding-right: 12px;
           }
         }
       }
@@ -122,26 +142,70 @@
   .hero {
     padding-top: 74px;
 
+    &__text {
+      padding-bottom: 25px;
+      font-size: 38px;
+
+      line-height: auto;
+      .text1 {
+        color: getColor('c_white');
+      }
+      .text2 {
+        font-size: 58px;
+        color: getColor('c_darkPink');
+        line-height: 52.49px;
+      }
+    }
+
+    .right__down {
+      img {
+        width: 293px;
+        height: 232px;
+        padding-right: 12px;
+      }
+    }
+
+    .right__up {
+      font-size: 14px;
+      p {
+        padding-bottom: 15px;
+      }
+      .up__16 {
+        width: 72px;
+        height: 57px;
+      }
+      .up__23 {
+        width: 77px;
+        height: 56px;
+      }
+    }
+
+    &__mid {
+      width: 538px;
+      height: 538px;
+      top: 52px;
+      left: 475px;
+    }
+
     &__text,
     &__buttons {
       padding-left: calc(115px - 46px);
     }
     &__milk {
       display: flex;
-      padding-top: 19px;
-      padding-bottom: 28px;
       .hero__image--milk {
         width: 188px;
         height: 191px;
       }
       .hero__subtext {
         font-family: 'DM Sans', sans-serif;
-        padding-top: 47px;
-        width: 200px;
-        height: 56px;
+        padding-top: 56px;
+        line-height: 19.4px;
         font-size: 14px;
         color: getColor('c_white');
         letter-spacing: 0em;
+        width: 200px;
+        height: 78px;
         .button--round {
           padding-top: 20px;
         }

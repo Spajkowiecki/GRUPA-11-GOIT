@@ -38,3 +38,30 @@ button {
     }
   }
 }
+
+@media screen and(min-width: 1280px) {
+  .hero {
+    &__buttons {
+      margin-bottom: 56px;
+      .button {
+        font-family: 'DM Sans', sans-serif;
+        &--pink {
+          width: 104px;
+          height: 40px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+        }
+        &--white {
+          width: 138px;
+          height: 40px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
