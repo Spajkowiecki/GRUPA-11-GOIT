@@ -200,7 +200,7 @@
     }
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .contact {
     background-image: linear-gradient(0deg, #fff5f6 78%, #fff 20%);
     padding-left: 115px;
@@ -209,10 +209,10 @@
     overflow: hidden;
     &__background-dot {
       display: inline-block;
-      width: 150%;
+      width: 100%;
       position: absolute;
       top: 210px;
-      left: -305px;
+      left: 0px;
     }
     &__button-locations {
       width: 198px;
