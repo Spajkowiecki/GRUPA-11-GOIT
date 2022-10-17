@@ -7,6 +7,9 @@ header {
   justify-content: space-between;
   margin-top: 6px;
   padding: 6px 20px 0px 20px;
+  margin-top: 6px;
+  max-width: 1280px;
+  margin: auto;
 }
 
 nav {
@@ -22,6 +25,7 @@ nav {
   &__page {
     position: relative;
     background: getColor('c_lightPink1');
+    padding: 6px 20px 0px 20px;
     height: 502px;
     overflow: hidden;
   }
@@ -40,6 +44,10 @@ nav {
 
 @media (min-width: 768px) {
   .header {
+    &__page {
+      padding: 37px 34px 0px 34px;
+      height: fit-content;
+    }
     &__button {
       display: inline-block;
     }
@@ -50,6 +58,16 @@ nav {
   header {
     nav {
       display: flex;
+    }
+  }
+  .header {
+    &__page {
+      padding: 37px 97px 0px 46px;
+      height: fit-content;
+    }
+    &__button {
+      display: inline-block;
+      margin-right: 18px;
     }
   }
 }
