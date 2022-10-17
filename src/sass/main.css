@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*
  * Główny plik dla stylów.
@@ -115,13 +116,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< Updated upstream
+
   padding: 6px 20px 0px 20px;
 }
 
 nav ul {
   display: none;
-=======
+
   margin-top: 6px;
   max-width: 1280px;
   margin: auto;
@@ -132,7 +133,7 @@ nav {
 }
 nav ul {
   display: flex;
->>>>>>> Stashed changes
+
   font-weight: 700;
   gap: 35px;
 }
@@ -140,10 +141,8 @@ nav ul {
 .header__page {
   position: relative;
   background: #ffb8ca;
-<<<<<<< Updated upstream
-=======
+
   padding: 6px 20px 0px 20px;
->>>>>>> Stashed changes
   height: 502px;
   overflow: hidden;
 }
@@ -162,14 +161,14 @@ nav ul {
   display: none;
 }
 
-<<<<<<< Updated upstream
+
 @media (min-width: 320px) {
   header {
     margin-top: 6px;
   }
 }
 @media (min-width: 768px) {
-=======
+
 @media (min-width: 768px) {
   .header__page {
     padding: 37px 34px 0px 34px;
@@ -177,17 +176,16 @@ nav ul {
     height: -moz-fit-content;
     height: fit-content;
   }
->>>>>>> Stashed changes
   .header__button {
     display: inline-block;
   }
 }
-<<<<<<< Updated upstream
+
 @media (min-width: 1280px) {
   header nav {
     display: flex;
   }
-=======
+
 @media screen and (min-width: 1280px) {
   header nav {
     display: flex;
@@ -202,7 +200,6 @@ nav ul {
     display: inline-block;
     margin-right: 18px;
   }
->>>>>>> Stashed changes
 }
 /*
 MAIN SETTINGS OF PROJECT
@@ -328,12 +325,11 @@ button {
   justify-content: space-between;
   font-family: "Titan One", sans-serif;
   letter-spacing: 0.04em;
-<<<<<<< Updated upstream
-=======
+
   max-width: 1280px;
   padding-top: 137px;
   margin: auto;
->>>>>>> Stashed changes
+
 }
 .hero__milk {
   display: none;
@@ -343,7 +339,7 @@ button {
   gap: 15px;
 }
 .hero__left {
-<<<<<<< Updated upstream
+
   margin-left: 20px;
 }
 .hero__right .right__up {
@@ -354,7 +350,7 @@ button {
 }
 .hero__text {
   padding-top: 15px;
-=======
+
   z-index: 5;
 }
 .hero__right {
@@ -363,7 +359,6 @@ button {
   z-index: 5;
 }
 .hero__text {
->>>>>>> Stashed changes
   padding-bottom: 19px;
   font-size: 26px;
   line-height: auto;
@@ -381,7 +376,7 @@ button {
   .hero {
     background-size: 143px 336px;
     background-position: 117px 92px;
-<<<<<<< Updated upstream
+
   }
   .hero__milk {
     margin-top: 19px;
@@ -401,7 +396,7 @@ button {
 @media (min-width: 1280px) {
   .hero__text {
     padding-bottom: 25px;
-=======
+
     padding-top: 12px;
   }
   .hero__milk {
@@ -492,7 +487,6 @@ button {
   }
   .hero__milk .hero__subtext .button--round {
     padding-top: 20px;
->>>>>>> Stashed changes
   }
 }
 /*
@@ -907,7 +901,7 @@ MAIN SETTINGS OF PROJECT
     background-image: url("../images/products/shake_big@2x.png");
   }
 }
-<<<<<<< Updated upstream
+
 /*
 MAIN SETTINGS OF PROJECT
 */
@@ -1318,7 +1312,6 @@ MAIN SETTINGS OF PROJECT
   }
   .products__item:nth-of-type(3)::before {
     background-image: url("../images/products/shake_big@2x.png");
-=======
 .contact {
   padding: 0 50px;
   background-image: linear-gradient(0deg, #fff5f6 92%, #fff 20%);
@@ -1785,6 +1778,7 @@ MAIN SETTINGS OF PROJECT
   }
   .about-descr__btn {
     margin-top: 45px;
->>>>>>> Stashed changes
   }
 }/*# sourceMappingURL=main.css.map */
+
+

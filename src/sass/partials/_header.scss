@@ -5,18 +5,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< Updated upstream
-  padding: 6px 20px 0px 20px;
-=======
   margin-top: 6px;
->>>>>>> Stashed changes
+  padding: 6px 20px 0px 20px;
+  margin-top: 6px;
   max-width: 1280px;
   margin: auto;
 }
 
 nav {
+  display: none;
   ul {
-    display: none;
+    display: flex;
     font-weight: 700;
     gap: 35px;
   }
@@ -43,11 +42,6 @@ nav {
   }
 }
 
-@media (min-width: 320px) {
-  header {
-    margin-top: 6px;
-  }
-}
 @media (min-width: 768px) {
   .header {
     &__page {
@@ -60,7 +54,7 @@ nav {
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and(min-width: 1280px) {
   header {
     nav {
       display: flex;
