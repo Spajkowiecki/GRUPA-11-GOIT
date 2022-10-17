@@ -1,5 +1,5 @@
 <section class="products products__container">
-  <span class="products__heading-label">100% natural</span>
+  <span id="products" class="products__heading-label">100% natural</span>
   <h2 class="products__heading">products</h2>
   <ul class="products__list">
     <li class="products__item">
@@ -8,12 +8,9 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et. dolore magna aliqua facilisis.
       </p>
-      <button class="products__btn" type="button"></button>
-      <!-- There is an additional box in the product card. 
-        To open them, add the class 'open' to the div with class 'products__box' -->
-      <!-- <div class="products__box open"> -->
-      <div class="products__box">
-        <button class="products__box-btn">X</button>
+      <button onclick="openBox('box1')" class="products__btn" type="button"></button>
+      <div id="box1" class="products__box">
+        <button onclick="closeBox('box1')" class="products__box-btn">X</button>
         <h4 class="products__box-title">Lorem:</h4>
         <ul class="products__box-list">
           <li class="products__box-item">Lorem, ipsum dolor</li>
@@ -29,9 +26,9 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et. dolore magna aliqua facilisis.
       </p>
-      <button class="products__btn" type="button"></button>
-      <div class="products__box">
-        <button class="products__box-btn">X</button>
+      <button onclick="openBox('box2')" class="products__btn" type="button"></button>
+      <div id="box2" class="products__box">
+        <button onclick="closeBox('box2')" class="products__box-btn">X</button>
         <h4 class="products__box-title">Lorem:</h4>
         <ul class="products__box-list">
           <li class="products__box-item">Lorem, ipsum dolor</li>
@@ -47,9 +44,9 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et. dolore magna aliqua facilisis.
       </p>
-      <button class="products__btn" type="button"></button>
-      <div class="products__box">
-        <button class="products__box-btn">X</button>
+      <button onclick="openBox('box3')" class="products__btn" type="button"></button>
+      <div id="box3" class="products__box">
+        <button onclick="closeBox('box3')" class="products__box-btn">X</button>
         <h4 class="products__box-title">Lorem:</h4>
         <ul class="products__box-list">
           <li class="products__box-item">Lorem, ipsum dolor</li>

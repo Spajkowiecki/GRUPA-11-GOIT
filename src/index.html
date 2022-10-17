@@ -20,19 +20,21 @@
   </head>
 
   <body>
-    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+
+    <!-- W taki sposób dodajemy fragmenty w główny HTML-plik strony. -->
     <!-- || HEADER || -->
     <div class="header__page">
       <include src="./partials/header.html"></include>
       <include src="./partials/hero.html"></include>
-      <include src="./partials/products.html"></include>
     </div>
+    <!-- || END OF HEADER || -->
     <include src="./partials/products.html"></include>
     <include src="./partials/about.html"></include>
-    <!-- || END OF HEADER || -->
+    <include src="./partials/contact.html"></include>
     <include src="./partials/footer.html"></include>
     <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
     <include src="./partials/menu-mobile.html"></include>
+    <script src="./js/products.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
