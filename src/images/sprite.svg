@@ -67,4 +67,9 @@
     <symbol id="burgir" viewBox="0 0 46 32">
         <path stroke="#d41443" stroke-width="2.29" d="M0 2.29h45.71M0 16h45.71M0 29.71h45.71" />
     </symbol>
+    <!-- width="139" height="32" -->
+    <symbol viewBox="0 0 139 32">
+        <path id="s-group" fill="#fff"
+            d="M85.33 16a16 16 0 1 1-32 0 16 16 0 0 1 32 0zM32 16a16 16 0 1 1-32 0 16 16 0 0 1 32 0zM138.67 16a16 16 0 1 1-32 0 16 16 0 0 1 32 0z" />
+    </symbol>
 </svg>
