@@ -10,7 +10,52 @@ $t_fontFamily: 'DM Sans', sans-serif;
 $t_secondFontFamily: 'Titan One', cursive;
 // TEKST & KOLOR mix // EN: TEXT & COLOR mix: t-c_*
 
-// KOLORY: c_* // EN: COLORS
+// FONTS
+@mixin header-font {
+  color: getColor('c_darkPink');
+  font-family: 'Titan One', cursive;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  @media screen and (min-width: 767px) {
+    font-size: 48px;
+    letter-spacing: 0.06rem;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 1.14;
+  }
+}
+
+@mixin header-support-font {
+  color: getColor('c_lightPink');
+  font-family: 'Titan One', cursive;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  @media screen and (min-width: 767px) {
+    font-size: 26px;
+    letter-spacing: 0.04rem;
+    line-height: 1.15;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+
+@mixin common-font {
+  color: getColor('c_black');
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  @media screen and (min-width: 767px) {
+    font-size: $t_secondSize;
+  }
+  @media screen and (min-width: 1199px) {
+    font-size: $t_primarySize;
+  }
+}
 $color: (
   't-c_primaryColor': 'c_black',
   't-c_secondColor': 'c_darkPink',

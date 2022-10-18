@@ -6,7 +6,13 @@
 // Style dla pliku z przykładem HTML fragmentu
 @import './resets';
 @import './setup';
+
+@import './partials/footer';
+
 @import './components/all';
 @import './partials/all';
 @import './partials/products';
 @import './partials/gallery';
+@import './partials/advantages';
+@import './partials/about';
+
