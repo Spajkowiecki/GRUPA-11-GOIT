@@ -190,6 +190,7 @@
       background: getColor('c_lightPink');
       top: 52px;
       left: 475px;
+
       .ice-cream {
         position: absolute;
         width: 236px;
@@ -252,6 +253,26 @@
           padding-top: 20px;
         }
       }
+    }
+  }
+}
+
+@media screen and(min-width: 1600px) {
+  .hero__mid {
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    border-radius: 50%;
+    background: getColor('c_lightPink');
+    top: 52px;
+    left: 805px;
+
+    .ice-cream {
+      position: absolute;
+      width: 236px;
+      height: 557px;
+      top: 56px;
+      left: 119px;
     }
   }
 }
