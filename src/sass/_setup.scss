@@ -8,5 +8,5 @@ body {
   //default font size
   font-size: $t_primarySize;
   //font color
-  color: $c_black;
+  color: getColor('c_black');
 }

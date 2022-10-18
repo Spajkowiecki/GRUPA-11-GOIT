@@ -1,0 +1,77 @@
+@import './../variables';
+@import './../components/button';
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+  z-index: 5;
+}
+
+nav {
+  display: none;
+  ul {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    font-weight: 700;
+    gap: 35px;
+    z-index: 5;
+  }
+}
+
+.header {
+  &__page {
+    position: relative;
+    background: getColor('c_lightPink1');
+    padding: 6px 20px 0px 20px;
+    height: 502px;
+    overflow: hidden;
+  }
+  &__button {
+    @include button(159px, 44px, getColor('c_darkPink'), getColor('c_white'));
+    font-weight: 700;
+    &:hover {
+      background-color: #ecebeb;
+    }
+  }
+  &__buttons {
+    display: flex;
+    gap: 30px;
+    z-index: 5;
+  }
+  &__button {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    &__page {
+      padding: 37px 34px 0px 34px;
+      height: 399px;
+    }
+    &__button {
+      display: inline-block;
+    }
+  }
+}
+
+@media screen and(min-width: 1280px) {
+  header {
+    nav {
+      display: flex;
+    }
+  }
+  .header {
+    &__page {
+      padding: 37px 97px 0px 46px;
+      height: 665px;
+    }
+    &__button {
+      display: inline-block;
+      margin-right: 18px;
+    }
+  }
+}

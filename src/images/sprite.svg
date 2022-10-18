@@ -1,4 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="burger" viewBox="0 0 20 14">
+        <path d="M0 1H20" stroke="#D41443"/>
+        <path d="M0 7H20" stroke="#D41443"/>
+        <path d="M0 13H20" stroke="#D41443"/>
+    </symbol>
+    <symbol id="arr-right" viewBox="0 0 32 32">
+    <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+    </symbol>
+
+    <symbol id=">" viewBox="0 0 6 10">
+        <path d="M1 1L5 5L1 9"/>
+    </symbol>
     <!-- width="256" height="32" -->
     <symbol id="group" viewBox="0 0 256 32">
         <path fill="#c7133e"

@@ -1,0 +1,73 @@
+@import './../variables';
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  border-radius: 50px;
+  background: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@mixin button($width, $height, $color, $bgcolor) {
+  width: $width;
+  height: $height;
+  color: $color;
+  background: $bgcolor;
+}
+
+.hero {
+  &__buttons {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 8px;
+
+    .button {
+      &--pink {
+        width: 62.4px;
+        color: getColor('c_white');
+        background-color: getColor('c_darkPink');
+        height: 24px;
+        &:hover {
+          background-color: #c7133e;
+        }
+      }
+
+      &--white {
+        width: 82.8px;
+        color: getColor('c_darkPink');
+        background-color: getColor('c_white');
+        height: 24px;
+        &:hover {
+          background-color: #ecebeb;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width: 1280px) {
+  .hero {
+    &__buttons {
+      margin-bottom: 56px;
+      .button {
+        font-family: 'DM Sans', sans-serif;
+        &--pink {
+          width: 104px;
+          height: 40px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+        }
+        &--white {
+          width: 138px;
+          height: 40px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

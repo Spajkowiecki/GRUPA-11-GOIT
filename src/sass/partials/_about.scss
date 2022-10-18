@@ -1,0 +1,216 @@
+@import './../variables';
+
+.about-container {
+  padding-top: 125px;
+  width: 100%;
+  margin: auto;
+  background-color: getColor('c_ultraLightPink');
+}
+.about {
+  background-image: url(../images/about/about-bg.png);
+  background-position: 0% 122%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  &__header {
+    text-align: center;
+    align-items: center;
+    padding: 0 60px 26px;
+  }
+  &__label {
+    color: getColor('c_lightPink');
+    font-size: 18px;
+    line-height: 1.16;
+  }
+  &__title {
+    color: getColor('c_darkPink');
+    font-size: 34px;
+    line-height: 1.147;
+    letter-spacing: 0.04em;
+    padding-top: 15px;
+  }
+  &__label,
+  &__title {
+    font-family: $t_secondFontFamily;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+.about-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  &__img {
+    width: 100%;
+    max-width: 480px;
+    display: block;
+    margin: auto;
+  }
+  &__background {
+    background-image: url(../images/about/about-bg-small.png);
+    max-width: 480px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 82%;
+    background-size: contain;
+  }
+  &__box {
+    padding: 46px 50px 0;
+    margin: auto;
+    width: 100%;
+    max-width: 480px;
+  }
+  &__text {
+    color: getColor('t-c_fourthColor');
+    font-family: $t_fontFamily;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+
+    &--black {
+      color: getColor('c_black');
+      padding-bottom: 25px;
+    }
+    &--padding {
+      padding-bottom: 17px;
+    }
+  }
+  &__btn {
+    background-color: getColor('c_white');
+    color: getColor('c_darkPink');
+    font-size: 14px;
+    line-height: 1.28;
+    font-weight: 700;
+    font-family: 'DM Sans';
+    border: none;
+    text-align: center;
+    height: 44px;
+    max-width: 176px;
+    width: 100%;
+    border-radius: 22px;
+    margin: auto;
+    margin-top: 17px;
+    &:hover {
+      background-color: getColor('c_lightGray');
+    }
+  }
+  &__btn-icon {
+    margin-left: 13.62px;
+  }
+}
+.about-descr__box p {
+  margin: 0;
+}
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about-descr__background {
+    background-image: url(../images/about/about-bg-small@2x.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about {
+    background-image: url(../images/about/about-bg.png);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about {
+    background-image: url(../images/about/about-bg@2x.png);
+  }
+}
+@media screen and(max-width: 1279px) {
+  .about {
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-descr__background {
+    background-image: none;
+  }
+  .about-descr {
+    display: flex;
+    flex-direction: row;
+    &__box {
+      margin-left: 0;
+      padding-left: 17px;
+      padding-right: 0;
+      max-width: 340px;
+    }
+    &__img {
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-container {
+    padding-top: 130px;
+  }
+  .about__title {
+    padding-top: 16px;
+  }
+  .about-descr__text {
+    font-size: $t_secondSize;
+    line-height: 1.78;
+    &--black {
+      color: #000000;
+      padding-bottom: 25px;
+    }
+  }
+  .about-descr__btn {
+    margin-top: 62px;
+  }
+  .about-descr__img {
+    margin-top: 0;
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about__header {
+    padding-bottom: 0px;
+  }
+  .about__label {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .about__title {
+    font-size: 58px;
+    line-height: 1.13;
+  }
+  .about-descr {
+    gap: 74px;
+    &__img {
+      margin-right: 0;
+      max-width: 516px;
+      height: 516px;
+      margin-top: 55px;
+    }
+    &__box {
+      margin-left: 0;
+      max-width: 463px;
+      padding-left: 0px;
+      padding-top: 0;
+      padding-right: 0;
+    }
+    &__text {
+      font-size: $t_secondSize;
+      line-height: 1.928;
+      padding-bottom: 20px;
+      letter-spacing: 0.04em;
+      &--black {
+        padding-bottom: 35px;
+        font-size: $t_primarySize;
+        line-height: 1.76;
+      }
+    }
+    &__btn {
+      margin-top: 45px;
+    }
+  }
+}
