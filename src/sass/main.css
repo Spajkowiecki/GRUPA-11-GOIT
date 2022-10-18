@@ -25,100 +25,14 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1199px) {
-  body {
-    font-size: 16px;
-  }
+body {
+  font-size: 16px;
+  color: #000;
 }
 
 /*
 MAIN SETTINGS OF PROJECT
 */
-button {
-  font-family: "DM Sans", sans-serif;
-  border: none;
-  border-radius: 50px;
-  background: transparent;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.hero__buttons {
-  font-family: "DM Sans", sans-serif;
-  font-size: 8px;
-}
-.hero__buttons .button--pink {
-  width: 62.4px;
-  color: #fff;
-  background-color: #d41443;
-  height: 24px;
-}
-.hero__buttons .button--pink:hover {
-  background-color: #c7133e;
-}
-.hero__buttons .button--white {
-  width: 82.8px;
-  color: #d41443;
-  background-color: #fff;
-  height: 24px;
-}
-.hero__buttons .button--white:hover {
-  background-color: #ecebeb;
-}
-
-@media screen and (min-width: 1280px) {
-  .hero__buttons {
-    margin-bottom: 56px;
-  }
-  .hero__buttons .button {
-    font-family: "DM Sans", sans-serif;
-  }
-  .hero__buttons .button--pink {
-    width: 104px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .hero__buttons .button--white {
-    width: 138px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-  }
-}
-/*
-MAIN SETTINGS OF PROJECT
-*/
-a {
-  color: #fff;
-}
-a:hover {
-  color: #d41443;
-}
-
-.link__button--pink {
-  color: #fff;
-  background-color: #d41443;
-}
-.link__button--white {
-  color: #d41443;
-  background-color: #fff;
-}
-
-
-/*
-MAIN SETTINGS OF PROJECT
-*/
-
 footer {
   background-color: #fff5f6;
   font-weight: 700;
@@ -215,6 +129,19 @@ footer .container {
 .socials__contact {
   font-size: 13px;
   margin-top: 46px;
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+}
+@media screen and (min-width: 767px) {
+  .socials__contact {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .socials__contact {
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 1199px) {
   .socials__contact {
@@ -249,7 +176,89 @@ footer .container {
 @media screen and (min-width: 767px) {
   .rights__container {
     display: flex;
+  }
+}
+/*
+MAIN SETTINGS OF PROJECT
+*/
+button {
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  border-radius: 50px;
+  background: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
 
+.hero__buttons {
+  font-family: "DM Sans", sans-serif;
+  font-size: 8px;
+}
+.hero__buttons .button--pink {
+  width: 62.4px;
+  color: #fff;
+  background-color: #d41443;
+  height: 24px;
+}
+.hero__buttons .button--pink:hover {
+  background-color: #c7133e;
+}
+.hero__buttons .button--white {
+  width: 82.8px;
+  color: #d41443;
+  background-color: #fff;
+  height: 24px;
+}
+.hero__buttons .button--white:hover {
+  background-color: #ecebeb;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero__buttons {
+    margin-bottom: 56px;
+  }
+  .hero__buttons .button {
+    font-family: "DM Sans", sans-serif;
+  }
+  .hero__buttons .button--pink {
+    width: 104px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .hero__buttons .button--white {
+    width: 138px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+/*
+MAIN SETTINGS OF PROJECT
+*/
+a {
+  color: #fff;
+}
+a:hover {
+  color: #d41443;
+}
+
+.link__button--pink {
+  color: #fff;
+  background-color: #d41443;
+}
+.link__button--white {
+  color: #d41443;
+  background-color: #fff;
+}
+
+/*
+MAIN SETTINGS OF PROJECT
+*/
 /*
 MAIN SETTINGS OF PROJECT
 */
@@ -2494,7 +2503,7 @@ MAIN SETTINGS OF PROJECT
     padding-bottom: 0px;
   }
   .about__label {
-    font-size: 30px
+    font-size: 30px;
     line-height: 1.13;
   }
   .about__title {
@@ -2530,6 +2539,5 @@ MAIN SETTINGS OF PROJECT
   }
   .about-descr__btn {
     margin-top: 45px;
-
   }
 }/*# sourceMappingURL=main.css.map */
