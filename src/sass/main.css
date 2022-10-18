@@ -1163,4 +1163,23 @@ MAIN SETTINGS OF PROJECT
   .products__item:nth-of-type(3)::before {
     background-image: url("../images/products/shake_big@2x.png");
   }
+}
+/*
+MAIN SETTINGS OF PROJECT
+*/
+.container {
+  display: flex;
+  width: 1280px;
+  height: 430px;
+  padding: 0 115px;
+}
+
+.gallery__box {
+  display: flex;
+  border-radius: 30px;
+  background-color: pink;
+}
+.gallery__box__img {
+  width: 138px;
+  height: 138px;
 }/*# sourceMappingURL=main.css.map */

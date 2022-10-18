@@ -1,0 +1,156 @@
+ul,
+li {
+  list-style-type: none;
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.gallery {
+  background-image: linear-gradient(
+    to bottom,
+    #fff5f6 40%,
+    white 40%,
+    white 70%
+  );
+  margin: 0 auto;
+  &__list {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .gallery {
+    min-height: 122px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .gallery {
+    min-height: 264px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery {
+    height: 430px;
+    &__photo {
+      display: none;
+    }
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 115px;
+      overflow: hidden;
+      .gallery__item {
+        display: flex;
+        gap: 10px;
+        .gallery__img {
+          background-size: cover;
+          width: 140px;
+          height: 140px;
+          border-radius: 20px;
+          animation-duration: 800ms;
+          animation-timing-function: ease-in;
+        }
+      }
+    }
+    &__box1.active .gallery__img {
+      background-image: url("../images/ice_cream1.jpeg");
+      animation-name: floatingImgDown;
+    }
+    &__box2.active {
+      .gallery__img:first-child {
+        background-image: url("../images/ice_cream2.jpeg");
+        margin-bottom: 10px;
+        animation-name: floatingImgLeft;
+      }
+      .gallery__img:last-child {
+        background-image: url("../images/ice_cream3.jpeg");
+        animation-name: floatingImgRight;
+      }
+    }
+    &__box3.active {
+      .gallery__img:first-child {
+        width: 280px;
+        height: 280px;
+        background-image: url("../images/ice_cream4.jpeg");
+        margin-bottom: 10px;
+        animation-name: floatingImgUp;
+      }
+      .gallery__img:last-child {
+        background-image: url("../images/ice_cream5.jpeg");
+        animation-name: floatingImgDown;
+      }
+    }
+    &__box4.active {
+      .gallery__img:first-child {
+        background-image: url("../images/ice_cream6.jpeg");
+        margin-top: 70px;
+        margin-bottom: 10px;
+        animation-name: floatingImgLeft;
+      }
+      .gallery__img:last-child {
+        background-image: url("../images/ice_cream7.jpeg");
+        animation-name: floatingImgRight;
+      }
+    }
+    &__box5.active {
+      .gallery__img:first-child {
+        background-image: url("../images/ice_cream8.jpeg");
+        margin-top: -10px;
+        margin-bottom: 10px;
+        animation-name: floatingImgRight;
+      }
+      .gallery__img:last-child {
+        background-image: url("../images/ice_cream9.jpeg");
+        animation-name: floatingImgDown;
+      }
+    }
+    &__box6.active .gallery__img {
+      background-image: url("../images/ice_cream10.jpeg");
+      margin-top: 20px;
+      animation-name: floatingImgUp;
+    }
+  }
+  @keyframes floatingImgUp {
+    0% {
+      transform: translatey(300%);
+    }
+    100% {
+      transform: none;
+    }
+  }
+
+  @keyframes floatingImgDown {
+    0% {
+      transform: translatey(-300%);
+    }
+    100% {
+      transform: none;
+    }
+  }
+
+  @keyframes floatingImgLeft {
+    0% {
+      transform: translatex(500%);
+    }
+    100% {
+      transform: none;
+    }
+  }
+
+  @keyframes floatingImgRight {
+    0% {
+      transform: translatex(-500%);
+    }
+    100% {
+      transform: none;
+    }
+  }
+}
+
