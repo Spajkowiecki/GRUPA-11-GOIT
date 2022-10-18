@@ -32,6 +32,9 @@ nav {
   &__button {
     @include button(159px, 44px, getColor('c_darkPink'), getColor('c_white'));
     font-weight: 700;
+    &:hover {
+      background-color: #ecebeb;
+    }
   }
   &__buttons {
     display: flex;

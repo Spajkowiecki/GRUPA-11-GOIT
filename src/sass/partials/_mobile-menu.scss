@@ -1,8 +1,8 @@
 @import './../variables';
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
+  min-height: 20px;
+  min-width: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,11 +20,6 @@
   .menu-toggle {
     display: none;
   }
-}
-
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .menu-container {

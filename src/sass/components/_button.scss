@@ -27,6 +27,9 @@ button {
         color: getColor('c_white');
         background-color: getColor('c_darkPink');
         height: 24px;
+        &:hover {
+          background-color: #c7133e;
+        }
       }
 
       &--white {
@@ -34,6 +37,9 @@ button {
         color: getColor('c_darkPink');
         background-color: getColor('c_white');
         height: 24px;
+        &:hover {
+          background-color: #ecebeb;
+        }
       }
     }
   }
