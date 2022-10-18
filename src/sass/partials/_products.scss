@@ -1,4 +1,3 @@
-
 @import './../variables';
 
 .products {
@@ -127,7 +126,6 @@
     text-align: center;
     letter-spacing: 0.04em;
     color: getColor('c_white');
-
   }
   &__btn {
     width: 40px;
@@ -141,6 +139,11 @@
     bottom: 41px;
     transform: translateX(-50%);
     cursor: pointer;
+    transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      transform: translateX(-50%) rotate(-90deg);
+    }
   }
 
   &__box {
@@ -169,7 +172,6 @@
     height: 30px;
     border-radius: 50%;
     border: 1px solid getColor('c_black');
-
     background-color: inherit;
     cursor: pointer;
   }
