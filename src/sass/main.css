@@ -26,18 +26,8 @@ html {
 }
 
 body {
-  font-size: 12px;
+  font-size: 16px;
   color: #000;
-}
-@media screen and (min-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 1199px) {
-  body {
-    font-size: 16px;
-  }
 }
 
 /*
@@ -139,6 +129,19 @@ footer .container {
 .socials__contact {
   font-size: 13px;
   margin-top: 46px;
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+}
+@media screen and (min-width: 767px) {
+  .socials__contact {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .socials__contact {
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 1199px) {
   .socials__contact {
@@ -147,6 +150,12 @@ footer .container {
 }
 .socials__link {
   color: #d41443;
+}
+.socials__icon {
+  fill: #ffa5ba;
+}
+.socials__icon:hover, .socials__icon:focus {
+  fill: #d41443;
 }
 
 .rights {

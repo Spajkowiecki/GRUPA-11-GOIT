@@ -64,6 +64,13 @@ footer{
     &__link{
         color: $c_darkPink;
     }
+    &__icon{
+        fill: $c_lightPink;
+        &:hover,
+        &:focus{
+            fill:$c_darkPink;
+        }
+    }
 }
 
 .rights{
