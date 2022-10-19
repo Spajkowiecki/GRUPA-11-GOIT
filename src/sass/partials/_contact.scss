@@ -227,6 +227,8 @@
     // flex-basis: calc((100% - 2 * 8px) / 3);
     flex-basis: calc((100% - 2 * 30px) / 3);
     min-width: 330px;
+    position: relative;
+    z-index: 1;
     &__label {
       font-size: 16px;
       margin-bottom: 32px;
