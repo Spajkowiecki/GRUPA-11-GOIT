@@ -57,15 +57,11 @@
   }
 
   &__text {
-    font-family: 'DM Sans';
-    font-style: normal;
+    font-family: $t_fontFamily;
     font-weight: 500;
     font-size: 12px;
     line-height: 2.58;
-    /* or 31px */
-
     text-align: center;
-
     color: #000000;
     z-index: 2;
     background-image: linear-gradient(
@@ -81,17 +77,21 @@
     background-size: 62px 62px;
   }
   &__name {
-    font-family: 'DM Sans';
-    font-style: normal;
+    font-family: $t_fontFamily;
     font-weight: 500;
     font-size: 14px;
-    line-height: 186%;
-    /* or 26px */
-
+    line-height: 1.86;
     text-align: center;
-
     color: #000000;
     padding-top: 52px;
+  }
+  &__slider {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
   }
 }
 
@@ -126,17 +126,9 @@
       margin: 0 auto 19px;
     }
     &__text {
-      font-family: 'DM Sans';
-      font-style: normal;
-      font-weight: 500;
       font-size: 14px;
       line-height: 2.14;
-      /* or 30px */
-
-      text-align: center;
       letter-spacing: 0.04em;
-
-      color: #000000;
       background-size: 42px 58px;
     }
 
@@ -154,6 +146,9 @@
       &::after {
         bottom: -24px;
       }
+    }
+    &__slider {
+      padding-top: 35px;
     }
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -179,17 +174,9 @@
       margin: 0 auto 15px;
     }
     &__text {
-      font-family: 'DM Sans';
-      font-style: normal;
-      font-weight: 500;
       font-size: 16px;
-      line-height: 186%;
+      line-height: 1.86;
       /* or 30px */
-
-      text-align: center;
-      letter-spacing: 0.04em;
-
-      color: #000000;
       background-size: 42px 58px;
     }
 
