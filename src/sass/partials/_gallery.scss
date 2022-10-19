@@ -10,17 +10,17 @@ img {
   width: 100%;
 }
 .gallery {
-  background-image: linear-gradient(
-    to bottom,
-    #fff5f6 40%,
-    white 40%,
-    white 70%
-  );
+  background-image: linear-gradient(to bottom, #fff5f6 40%, white 40%, white 70%);
   margin: 0 auto;
   &__list {
     display: none;
   }
 }
+.large {
+  width: 100%;
+  height: 200vh;
+  background-color: antiquewhite;
+  }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .gallery {
     min-height: 122px;
@@ -46,73 +46,69 @@ img {
       gap: 10px;
       padding: 0 115px;
       overflow: hidden;
-      .gallery__item {
-        display: flex;
-        gap: 10px;
-        .gallery__img {
-          background-size: cover;
-          width: 140px;
-          height: 140px;
-          border-radius: 20px;
-          animation-duration: 800ms;
-          animation-timing-function: ease-in;
-        }
+      .gallery__img {
+        background-size: cover;
+        width: 140px;
+        height: 140px;
+        border-radius: 20px;
+        animation-duration: 500ms;
+        animation-timing-function: ease-in;
       }
     }
-    &__box1.active .gallery__img {
-      background-image: url("../images/ice_cream1.jpeg");
+    &__item1.active .gallery__img {
+      background-image: url('../images/ice_cream1.jpeg');
       animation-name: floatingImgDown;
     }
-    &__box2.active {
+    &__item2.active {
       .gallery__img:first-child {
-        background-image: url("../images/ice_cream2.jpeg");
+        background-image: url('../images/ice_cream2.jpeg');
         margin-bottom: 10px;
         animation-name: floatingImgLeft;
       }
       .gallery__img:last-child {
-        background-image: url("../images/ice_cream3.jpeg");
+        background-image: url('../images/ice_cream3.jpeg');
         animation-name: floatingImgRight;
       }
     }
-    &__box3.active {
+    &__item3.active {
       .gallery__img:first-child {
         width: 280px;
         height: 280px;
-        background-image: url("../images/ice_cream4.jpeg");
+        background-image: url('../images/ice_cream4.jpeg');
         margin-bottom: 10px;
         animation-name: floatingImgUp;
       }
       .gallery__img:last-child {
-        background-image: url("../images/ice_cream5.jpeg");
+        background-image: url('../images/ice_cream5.jpeg');
         animation-name: floatingImgDown;
       }
     }
-    &__box4.active {
+    &__item4.active {
       .gallery__img:first-child {
-        background-image: url("../images/ice_cream6.jpeg");
+        background-image: url('../images/ice_cream6.jpeg');
         margin-top: 70px;
         margin-bottom: 10px;
         animation-name: floatingImgLeft;
       }
       .gallery__img:last-child {
-        background-image: url("../images/ice_cream7.jpeg");
+        background-image: url('../images/ice_cream7.jpeg');
         animation-name: floatingImgRight;
       }
     }
-    &__box5.active {
+    &__item5.active {
       .gallery__img:first-child {
-        background-image: url("../images/ice_cream8.jpeg");
+        background-image: url('../images/ice_cream8.jpeg');
         margin-top: -10px;
         margin-bottom: 10px;
         animation-name: floatingImgRight;
       }
       .gallery__img:last-child {
-        background-image: url("../images/ice_cream9.jpeg");
+        background-image: url('../images/ice_cream9.jpeg');
         animation-name: floatingImgDown;
       }
     }
-    &__box6.active .gallery__img {
-      background-image: url("../images/ice_cream10.jpeg");
+    &__item6.active .gallery__img {
+      background-image: url('../images/ice_cream10.jpeg');
       margin-top: 20px;
       animation-name: floatingImgUp;
     }
@@ -153,4 +149,3 @@ img {
     }
   }
 }
-
