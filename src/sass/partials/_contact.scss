@@ -13,6 +13,8 @@
     padding: 0px;
     text-align: center;
     margin: 0px;
+    position: relative;
+    z-index: 1;
   }
   &__button-locations {
     border: none;

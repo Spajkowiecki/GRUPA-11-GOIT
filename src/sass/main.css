@@ -57,7 +57,7 @@ footer .container {
 
 .slogan__main {
   color: #ffa5ba;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ footer .container {
 }
 .slogan__h-light {
   color: #d41443;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 34px;
   line-height: 1.15;
   letter-spacing: 0.04rem;
@@ -130,7 +130,7 @@ footer .container {
   font-size: 13px;
   margin-top: 46px;
   color: #000;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 12px;
 }
 @media screen and (min-width: 767px) {
@@ -182,7 +182,7 @@ footer .container {
 MAIN SETTINGS OF PROJECT
 */
 button {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   border: none;
   border-radius: 50px;
   background: transparent;
@@ -191,7 +191,7 @@ button {
 }
 
 .hero__buttons {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 8px;
 }
 .hero__buttons .button--pink {
@@ -218,7 +218,7 @@ button {
     margin-bottom: 56px;
   }
   .hero__buttons .button {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
   }
   .hero__buttons .button--pink {
     width: 104px;
@@ -263,7 +263,7 @@ MAIN SETTINGS OF PROJECT
 MAIN SETTINGS OF PROJECT
 */
 button {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   border: none;
   border-radius: 50px;
   background: transparent;
@@ -272,7 +272,7 @@ button {
 }
 
 .hero__buttons {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 8px;
 }
 .hero__buttons .button--pink {
@@ -299,7 +299,7 @@ button {
     margin-bottom: 56px;
   }
   .hero__buttons .button {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
   }
   .hero__buttons .button--pink {
     width: 104px;
@@ -331,7 +331,7 @@ nav {
   display: none;
 }
 nav ul {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   display: flex;
   font-weight: 700;
   gap: 35px;
@@ -439,7 +439,7 @@ MAIN SETTINGS OF PROJECT
 }
 
 .mobile-menu {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding-top: 19px;
 }
 .mobile-menu li {
@@ -475,7 +475,7 @@ MAIN SETTINGS OF PROJECT
 MAIN SETTINGS OF PROJECT
 */
 button {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   border: none;
   border-radius: 50px;
   background: transparent;
@@ -484,7 +484,7 @@ button {
 }
 
 .hero__buttons {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 8px;
 }
 .hero__buttons .button--pink {
@@ -511,7 +511,7 @@ button {
     margin-bottom: 56px;
   }
   .hero__buttons .button {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
   }
   .hero__buttons .button--pink {
     width: 104px;
@@ -533,7 +533,7 @@ button {
 .hero {
   display: flex;
   justify-content: space-between;
-  font-family: "Titan One", sans-serif;
+  font-family: 'Titan One', sans-serif;
   letter-spacing: 0.04em;
   max-width: 1280px;
   padding-top: 137px;
@@ -622,7 +622,7 @@ button {
     height: 126px;
   }
   .hero__milk .hero__subtext {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     padding-top: 47px;
     width: 114px;
     height: 48px;
@@ -651,7 +651,7 @@ button {
     display: flex;
   }
   .hero__right .right__up {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     margin-left: auto;
     line-height: 12px;
     text-align: center;
@@ -739,7 +739,8 @@ button {
     top: 52px;
     left: 475px;
   }
-  .hero__text, .hero__buttons {
+  .hero__text,
+  .hero__buttons {
     padding-left: 69px;
   }
   .hero__milk {
@@ -750,7 +751,7 @@ button {
     height: 191px;
   }
   .hero__milk .hero__subtext {
-    font-family: "DM Sans", sans-serif;
+    font-family: 'DM Sans', sans-serif;
     padding-top: 56px;
     line-height: 19.4px;
     font-size: 14px;
@@ -794,7 +795,7 @@ MAIN SETTINGS OF PROJECT
   min-width: 320px;
 }
 .products__heading-label {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 18px;
   line-height: 1.17;
   text-align: center;
@@ -803,7 +804,7 @@ MAIN SETTINGS OF PROJECT
   padding-top: 121px;
 }
 .products__heading {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 34px;
   line-height: 1.15;
   text-align: center;
@@ -831,11 +832,11 @@ MAIN SETTINGS OF PROJECT
   position: relative;
 }
 .products__item:nth-of-type(1)::before {
-  content: "";
+  content: '';
   display: block;
   width: 249px;
   height: 252px;
-  background-image: url("../images/products/icecream_small.png");
+  background-image: url('../images/products/icecream_small.png');
   background-size: contain;
   margin: 0 auto;
   position: absolute;
@@ -848,11 +849,11 @@ MAIN SETTINGS OF PROJECT
   position: relative;
 }
 .products__item:nth-of-type(2)::before {
-  content: "";
+  content: '';
   display: block;
   width: 249px;
   height: 252px;
-  background-image: url("../images/products/coffee_small.png");
+  background-image: url('../images/products/coffee_small.png');
   background-size: contain;
   margin: 0 auto;
   position: absolute;
@@ -865,11 +866,11 @@ MAIN SETTINGS OF PROJECT
   position: relative;
 }
 .products__item:nth-of-type(3)::before {
-  content: "";
+  content: '';
   display: block;
   width: 249px;
   height: 252px;
-  background-image: url("../images/products/shake_small.png");
+  background-image: url('../images/products/shake_small.png');
   background-size: contain;
   margin: 0 auto;
   position: absolute;
@@ -877,7 +878,7 @@ MAIN SETTINGS OF PROJECT
   transform: translate(-50%, -113px);
 }
 .products__product-name {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 20px;
   line-height: 1.15;
   font-weight: 400;
@@ -888,16 +889,16 @@ MAIN SETTINGS OF PROJECT
   margin-top: 161px;
 }
 .products__product-name::after {
-  content: "";
+  content: '';
   display: block;
   width: 26px;
   height: 6px;
-  background-image: url("../images/products/dots.png");
+  background-image: url('../images/products/dots.png');
   background-size: contain;
   margin: 30px auto;
 }
 .products__product-description {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding: 0 39px 0 41px;
   font-weight: 700;
   font-size: 14px;
@@ -910,7 +911,7 @@ MAIN SETTINGS OF PROJECT
   width: 40px;
   height: 40px;
   background-color: inherit;
-  background-image: url("../images/products/btn.png");
+  background-image: url('../images/products/btn.png');
   background-size: contain;
   border: none;
   position: absolute;
@@ -948,7 +949,7 @@ MAIN SETTINGS OF PROJECT
   cursor: pointer;
 }
 .products__box-title {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 18px;
   line-height: 1.17;
   font-weight: 400;
@@ -967,21 +968,24 @@ MAIN SETTINGS OF PROJECT
   line-height: 1.5;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products__item:nth-of-type(1)::before {
-    background-image: url("../images/products/icecream_small@2x.png");
+    background-image: url('../images/products/icecream_small@2x.png');
   }
   .products__item:nth-of-type(2)::before {
-    background-image: url("../images/products/coffee_small@2x.png");
+    background-image: url('../images/products/coffee_small@2x.png');
   }
   .products__item:nth-of-type(3)::before {
-    background-image: url("../images/products/shake_small@2x.png");
+    background-image: url('../images/products/shake_small@2x.png');
   }
   .products__product-name::after {
-    background-image: url("../images/products/dots@2x.png");
+    background-image: url('../images/products/dots@2x.png');
   }
   .products__product-name__btn {
-    background-image: url("../images/products/btn@2x.png");
+    background-image: url('../images/products/btn@2x.png');
   }
 }
 @media screen and (min-width: 480px) {
@@ -1015,11 +1019,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(1)::before {
-    content: "";
+    content: '';
     display: block;
     width: 220px;
     height: 226px;
-    background-image: url("../images/products/icecream_medium.png");
+    background-image: url('../images/products/icecream_medium.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -1030,11 +1034,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(2)::before {
-    content: "";
+    content: '';
     display: block;
     width: 220px;
     height: 233px;
-    background-image: url("../images/products/coffee_medium.png");
+    background-image: url('../images/products/coffee_medium.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -1045,11 +1049,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(3)::before {
-    content: "";
+    content: '';
     display: block;
     width: 220px;
     height: 224px;
-    background-image: url("../images/products/shake_medium.png");
+    background-image: url('../images/products/shake_medium.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -1075,15 +1079,18 @@ MAIN SETTINGS OF PROJECT
     left: 10px;
   }
 }
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .products__item:nth-of-type(1)::before {
-    background-image: url("../images/products/icecream_medium@2x.png");
+    background-image: url('../images/products/icecream_medium@2x.png');
   }
   .products__item:nth-of-type(2)::before {
-    background-image: url("../images/products/coffee_medium@2x.png");
+    background-image: url('../images/products/coffee_medium@2x.png');
   }
   .products__item:nth-of-type(3)::before {
-    background-image: url("../images/products/shake_medium@2x.png");
+    background-image: url('../images/products/shake_medium@2x.png');
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1114,11 +1121,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(1)::before {
-    content: "";
+    content: '';
     display: block;
     width: 335px;
     height: 335px;
-    background-image: url("../images/products/icecream_big.png");
+    background-image: url('../images/products/icecream_big.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -1130,11 +1137,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0 1px 0 0;
   }
   .products__item:nth-of-type(2)::before {
-    content: "";
+    content: '';
     display: block;
     width: 337px;
     height: 335px;
-    background-image: url("../images/products/coffee_big.png");
+    background-image: url('../images/products/coffee_big.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -1146,11 +1153,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(3)::before {
-    content: "";
+    content: '';
     display: block;
     width: 335px;
     height: 335px;
-    background-image: url("../images/products/shake_big.png");
+    background-image: url('../images/products/shake_big.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -1182,15 +1189,18 @@ MAIN SETTINGS OF PROJECT
     left: 10px;
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .products__item:nth-of-type(1)::before {
-    background-image: url("../images/products/icecream_big@2x.png");
+    background-image: url('../images/products/icecream_big@2x.png');
   }
   .products__item:nth-of-type(2)::before {
-    background-image: url("../images/products/coffee_big@2x.png");
+    background-image: url('../images/products/coffee_big@2x.png');
   }
   .products__item:nth-of-type(3)::before {
-    background-image: url("../images/products/shake_big@2x.png");
+    background-image: url('../images/products/shake_big@2x.png');
   }
 }
 .contact {
@@ -1198,7 +1208,7 @@ MAIN SETTINGS OF PROJECT
   background-image: linear-gradient(0deg, #fff5f6 92%, #fff 20%);
   padding-top: 86px;
   padding-bottom: 113px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 .contact__title {
   display: none;
@@ -1208,6 +1218,8 @@ MAIN SETTINGS OF PROJECT
   padding: 0px;
   text-align: center;
   margin: 0px;
+  position: relative;
+  z-index: 1;
 }
 .contact__button-locations {
   border: none;
@@ -1386,7 +1398,8 @@ MAIN SETTINGS OF PROJECT
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
-  .contact-panel__mail, .contact-panel__tel {
+  .contact-panel__mail,
+  .contact-panel__tel {
     font-size: 14px;
     line-height: 1.86;
   }
@@ -1417,6 +1430,8 @@ MAIN SETTINGS OF PROJECT
     margin-bottom: 86px;
     flex-basis: calc((100% - 60px) / 3);
     min-width: 330px;
+    position: relative;
+    z-index: 1;
   }
   .contact-panel__label {
     font-size: 16px;
@@ -1445,7 +1460,8 @@ MAIN SETTINGS OF PROJECT
     padding-bottom: 32px;
     margin-bottom: 32px;
   }
-  .contact-panel__mail, .contact-panel__tel {
+  .contact-panel__mail,
+  .contact-panel__tel {
     font-size: 14px;
     line-height: 1.86;
   }
@@ -1484,8 +1500,9 @@ MAIN SETTINGS OF PROJECT
   letter-spacing: 0.04em;
   padding-top: 15px;
 }
-.about__label, .about__title {
-  font-family: "Titan One", cursive;
+.about__label,
+.about__title {
+  font-family: 'Titan One', cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -1517,7 +1534,7 @@ MAIN SETTINGS OF PROJECT
 }
 .about-descr__text {
   color: #907e82;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.62;
@@ -1535,7 +1552,7 @@ MAIN SETTINGS OF PROJECT
   font-size: 14px;
   line-height: 1.28;
   font-weight: 700;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   border: none;
   text-align: center;
   height: 44px;
@@ -1556,7 +1573,10 @@ MAIN SETTINGS OF PROJECT
   margin: 0;
 }
 
-@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .about-descr__background {
     background-image: url(../images/about/about-bg-small@2x.png);
   }
@@ -1566,7 +1586,10 @@ MAIN SETTINGS OF PROJECT
     background-image: url(../images/about/about-bg.png);
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .about {
     background-image: url(../images/about/about-bg@2x.png);
   }
@@ -1805,7 +1828,7 @@ MAIN SETTINGS OF PROJECT
 }
 .advantages-list__header {
   text-align: left;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-weight: 400;
   font-size: 36px;
   line-height: 66.41px;
@@ -1815,7 +1838,7 @@ MAIN SETTINGS OF PROJECT
   margin-bottom: 0px;
 }
 .advantages-list__text {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 174%;
@@ -1887,7 +1910,7 @@ MAIN SETTINGS OF PROJECT
   background-image: linear-gradient(0deg, #fff5f6 92%, #fff 20%);
   padding-top: 86px;
   padding-bottom: 113px;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 .contact__title {
   display: none;
@@ -2075,7 +2098,8 @@ MAIN SETTINGS OF PROJECT
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
-  .contact-panel__mail, .contact-panel__tel {
+  .contact-panel__mail,
+  .contact-panel__tel {
     font-size: 14px;
     line-height: 1.86;
   }
@@ -2134,7 +2158,8 @@ MAIN SETTINGS OF PROJECT
     padding-bottom: 32px;
     margin-bottom: 32px;
   }
-  .contact-panel__mail, .contact-panel__tel {
+  .contact-panel__mail,
+  .contact-panel__tel {
     font-size: 14px;
     line-height: 1.86;
   }
@@ -2152,7 +2177,7 @@ MAIN SETTINGS OF PROJECT
   min-width: 320px;
 }
 .products__heading-label {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 18px;
   line-height: 1.17;
   text-align: center;
@@ -2161,7 +2186,7 @@ MAIN SETTINGS OF PROJECT
   padding-top: 121px;
 }
 .products__heading {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 34px;
   line-height: 1.15;
   text-align: center;
@@ -2189,11 +2214,11 @@ MAIN SETTINGS OF PROJECT
   position: relative;
 }
 .products__item:nth-of-type(1)::before {
-  content: "";
+  content: '';
   display: block;
   width: 249px;
   height: 252px;
-  background-image: url("../images/products/icecream_small.png");
+  background-image: url('../images/products/icecream_small.png');
   background-size: contain;
   margin: 0 auto;
   position: absolute;
@@ -2206,11 +2231,11 @@ MAIN SETTINGS OF PROJECT
   position: relative;
 }
 .products__item:nth-of-type(2)::before {
-  content: "";
+  content: '';
   display: block;
   width: 249px;
   height: 252px;
-  background-image: url("../images/products/coffee_small.png");
+  background-image: url('../images/products/coffee_small.png');
   background-size: contain;
   margin: 0 auto;
   position: absolute;
@@ -2223,11 +2248,11 @@ MAIN SETTINGS OF PROJECT
   position: relative;
 }
 .products__item:nth-of-type(3)::before {
-  content: "";
+  content: '';
   display: block;
   width: 249px;
   height: 252px;
-  background-image: url("../images/products/shake_small.png");
+  background-image: url('../images/products/shake_small.png');
   background-size: contain;
   margin: 0 auto;
   position: absolute;
@@ -2235,7 +2260,7 @@ MAIN SETTINGS OF PROJECT
   transform: translate(-50%, -113px);
 }
 .products__product-name {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 20px;
   line-height: 1.15;
   font-weight: 400;
@@ -2246,16 +2271,16 @@ MAIN SETTINGS OF PROJECT
   margin-top: 161px;
 }
 .products__product-name::after {
-  content: "";
+  content: '';
   display: block;
   width: 26px;
   height: 6px;
-  background-image: url("../images/products/dots.png");
+  background-image: url('../images/products/dots.png');
   background-size: contain;
   margin: 30px auto;
 }
 .products__product-description {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   padding: 0 39px 0 41px;
   font-weight: 700;
   font-size: 14px;
@@ -2268,7 +2293,7 @@ MAIN SETTINGS OF PROJECT
   width: 40px;
   height: 40px;
   background-color: inherit;
-  background-image: url("../images/products/btn.png");
+  background-image: url('../images/products/btn.png');
   background-size: contain;
   border: none;
   position: absolute;
@@ -2306,7 +2331,7 @@ MAIN SETTINGS OF PROJECT
   cursor: pointer;
 }
 .products__box-title {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-size: 18px;
   line-height: 1.17;
   font-weight: 400;
@@ -2325,21 +2350,24 @@ MAIN SETTINGS OF PROJECT
   line-height: 1.5;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products__item:nth-of-type(1)::before {
-    background-image: url("../images/products/icecream_small@2x.png");
+    background-image: url('../images/products/icecream_small@2x.png');
   }
   .products__item:nth-of-type(2)::before {
-    background-image: url("../images/products/coffee_small@2x.png");
+    background-image: url('../images/products/coffee_small@2x.png');
   }
   .products__item:nth-of-type(3)::before {
-    background-image: url("../images/products/shake_small@2x.png");
+    background-image: url('../images/products/shake_small@2x.png');
   }
   .products__product-name::after {
-    background-image: url("../images/products/dots@2x.png");
+    background-image: url('../images/products/dots@2x.png');
   }
   .products__product-name__btn {
-    background-image: url("../images/products/btn@2x.png");
+    background-image: url('../images/products/btn@2x.png');
   }
 }
 @media screen and (min-width: 480px) {
@@ -2373,11 +2401,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(1)::before {
-    content: "";
+    content: '';
     display: block;
     width: 220px;
     height: 226px;
-    background-image: url("../images/products/icecream_medium.png");
+    background-image: url('../images/products/icecream_medium.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -2388,11 +2416,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(2)::before {
-    content: "";
+    content: '';
     display: block;
     width: 220px;
     height: 233px;
-    background-image: url("../images/products/coffee_medium.png");
+    background-image: url('../images/products/coffee_medium.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -2403,11 +2431,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(3)::before {
-    content: "";
+    content: '';
     display: block;
     width: 220px;
     height: 224px;
-    background-image: url("../images/products/shake_medium.png");
+    background-image: url('../images/products/shake_medium.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -2433,15 +2461,18 @@ MAIN SETTINGS OF PROJECT
     left: 10px;
   }
 }
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .products__item:nth-of-type(1)::before {
-    background-image: url("../images/products/icecream_medium@2x.png");
+    background-image: url('../images/products/icecream_medium@2x.png');
   }
   .products__item:nth-of-type(2)::before {
-    background-image: url("../images/products/coffee_medium@2x.png");
+    background-image: url('../images/products/coffee_medium@2x.png');
   }
   .products__item:nth-of-type(3)::before {
-    background-image: url("../images/products/shake_medium@2x.png");
+    background-image: url('../images/products/shake_medium@2x.png');
   }
 }
 @media screen and (min-width: 1280px) {
@@ -2472,11 +2503,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(1)::before {
-    content: "";
+    content: '';
     display: block;
     width: 335px;
     height: 335px;
-    background-image: url("../images/products/icecream_big.png");
+    background-image: url('../images/products/icecream_big.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -2488,11 +2519,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0 1px 0 0;
   }
   .products__item:nth-of-type(2)::before {
-    content: "";
+    content: '';
     display: block;
     width: 337px;
     height: 335px;
-    background-image: url("../images/products/coffee_big.png");
+    background-image: url('../images/products/coffee_big.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -2504,11 +2535,11 @@ MAIN SETTINGS OF PROJECT
     margin: 0;
   }
   .products__item:nth-of-type(3)::before {
-    content: "";
+    content: '';
     display: block;
     width: 335px;
     height: 335px;
-    background-image: url("../images/products/shake_big.png");
+    background-image: url('../images/products/shake_big.png');
     background-size: contain;
     margin: 0 auto;
     position: absolute;
@@ -2540,15 +2571,18 @@ MAIN SETTINGS OF PROJECT
     left: 10px;
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .products__item:nth-of-type(1)::before {
-    background-image: url("../images/products/icecream_big@2x.png");
+    background-image: url('../images/products/icecream_big@2x.png');
   }
   .products__item:nth-of-type(2)::before {
-    background-image: url("../images/products/coffee_big@2x.png");
+    background-image: url('../images/products/coffee_big@2x.png');
   }
   .products__item:nth-of-type(3)::before {
-    background-image: url("../images/products/shake_big@2x.png");
+    background-image: url('../images/products/shake_big@2x.png');
   }
 }
 /*
@@ -2695,7 +2729,7 @@ MAIN SETTINGS OF PROJECT
 }
 .advantages-list__header {
   text-align: left;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-weight: 400;
   font-size: 36px;
   line-height: 66.41px;
@@ -2705,7 +2739,7 @@ MAIN SETTINGS OF PROJECT
   margin-bottom: 0px;
 }
 .advantages-list__text {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 174%;
@@ -2806,8 +2840,9 @@ MAIN SETTINGS OF PROJECT
   letter-spacing: 0.04em;
   padding-top: 15px;
 }
-.about__label, .about__title {
-  font-family: "Titan One", cursive;
+.about__label,
+.about__title {
+  font-family: 'Titan One', cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -2839,7 +2874,7 @@ MAIN SETTINGS OF PROJECT
 }
 .about-descr__text {
   color: #907e82;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.62;
@@ -2857,7 +2892,7 @@ MAIN SETTINGS OF PROJECT
   font-size: 14px;
   line-height: 1.28;
   font-weight: 700;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   border: none;
   text-align: center;
   height: 44px;
@@ -2878,7 +2913,10 @@ MAIN SETTINGS OF PROJECT
   margin: 0;
 }
 
-@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .about-descr__background {
     background-image: url(../images/about/about-bg-small@2x.png);
   }
@@ -2888,7 +2926,10 @@ MAIN SETTINGS OF PROJECT
     background-image: url(../images/about/about-bg.png);
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .about {
     background-image: url(../images/about/about-bg@2x.png);
   }
@@ -3001,4 +3042,4 @@ MAIN SETTINGS OF PROJECT
 .gallery__box__img {
   width: 138px;
   height: 138px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
