@@ -49,6 +49,7 @@
       width: 32px;
       height: 4px;
       background-image: url('../images/reviews/dots.png');
+      background-repeat: no-repeat;
       background-size: contain;
       bottom: -30px;
       left: 50%;
@@ -103,6 +104,7 @@
     &__box {
       &::after {
         background-image: url('../images/reviews/dots@2x.png');
+        background-repeat: no-repeat;
       }
     }
   }
@@ -158,6 +160,7 @@
         &__box {
           &::after {
             background-image: url('../images/reviews/dots@2x.png');
+            background-repeat: no-repeat;
           }
         }
       }
@@ -204,6 +207,7 @@
       &__box {
         &::after {
           background-image: url('../images/reviews/dots@2x.png');
+          background-repeat: no-repeat;
         }
       }
     }
