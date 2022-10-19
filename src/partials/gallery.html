@@ -1,10 +1,15 @@
 <div class="gallery">
-  <img
-    class="gallery__photo"
-    src="images/ice_cream_gallery.jpeg"
-    srcset="images/ice_cream_gallery@2x.jpeg 2x"
-    alt="gallery of our ice cream"
-  />
+  <picture class="gallery__photo">
+    <source
+      srcset="images/gallery-medium.png 1x, images/gallery-medium@2x.png 2x"
+      media="(min-width: 768px)"
+    />
+    <img
+      src="images/gallery-small.png"
+      srcset="images/gallery-small@2x.png 2x"
+      alt="gallery of our ice cream"
+    />
+  </picture>
   <ul class="gallery__list" id="gallery">
     <li class="gallery__item1 box">
       <div class="gallery__img"></div>
