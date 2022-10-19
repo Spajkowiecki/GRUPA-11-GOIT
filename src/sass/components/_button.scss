@@ -34,7 +34,6 @@ button {
 
       &--white {
         width: 82.8px;
-        color: getColor('c_darkPink');
         background-color: getColor('c_white');
         height: 24px;
         &:hover {
@@ -43,6 +42,12 @@ button {
       }
     }
   }
+}
+.button--white a {
+  color: getColor('c_darkPink');
+}
+.button--pink a {
+  color: getColor('c_white');
 }
 
 @media screen and(min-width: 1280px) {
