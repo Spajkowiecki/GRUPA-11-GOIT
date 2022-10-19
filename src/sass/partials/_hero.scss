@@ -9,6 +9,10 @@
   max-width: 1280px;
   padding-top: 137px;
   margin: auto;
+  &__container {
+    min-width: 320px;
+  }
+
   &__milk {
     display: none;
   }
@@ -47,14 +51,18 @@
 
   &__text {
     padding-bottom: 19px;
+    padding-right: 62px;
     font-size: 26px;
 
     line-height: auto;
     .text1 {
+      font-size: 26px;
+      font-weight: 400;
       color: getColor('c_white');
     }
     .text2 {
       font-size: 48px;
+      font-weight: 400;
       color: getColor('c_darkPink');
       line-height: 46.32px;
     }
@@ -119,6 +127,8 @@
 
       line-height: auto;
       .text1 {
+        max-width: 162px;
+        font-size: 22px;
         color: getColor('c_white');
       }
       .text2 {
@@ -173,6 +183,8 @@
 
       line-height: auto;
       .text1 {
+        max-width: 277px;
+        font-size: 38px;
         color: getColor('c_white');
       }
       .text2 {
