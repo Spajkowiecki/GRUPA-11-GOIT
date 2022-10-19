@@ -1,0 +1,224 @@
+.hidden {
+  display: none;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+
+  &__container {
+    min-width: 320px;
+  }
+  &__avatar {
+    display: block;
+    height: 85px;
+    width: 85px;
+    margin: 0 auto 29px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    width: calc(100% - 40px);
+  }
+  &__box {
+    background-color: #fafafa;
+    padding: 43px 66px 26px 57px;
+    z-index: 2;
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      width: 54px;
+      height: 40px;
+      background-image: url('../images/reviews/quote.svg');
+      position: absolute;
+      top: 28px;
+      left: 61px;
+      z-index: -1;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 32px;
+      height: 4px;
+      background-image: url('../images/reviews/dots.png');
+      background-size: contain;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.58;
+    /* or 31px */
+
+    text-align: center;
+
+    color: #000000;
+    z-index: 2;
+    background-image: linear-gradient(
+      0deg,
+      #e1e1e1 1.61%,
+      transparent 0,
+      transparent 50%,
+      #e1e1e1 0,
+      #e1e1e1 51.61%,
+      transparent 0,
+      transparent
+    );
+    background-size: 62px 62px;
+  }
+  &__name {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    /* or 26px */
+
+    text-align: center;
+
+    color: #000000;
+    padding-top: 52px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .reviews {
+    &__box {
+      &::after {
+        background-image: url('../images/reviews/dots@2x.png');
+      }
+    }
+  }
+}
+@media screen and (min-width: 480px) {
+  .reviews {
+    &__container {
+      width: 480px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    &__container {
+      width: 768px;
+      margin: 0 auto;
+    }
+    &__avatar {
+      margin: 0 auto 19px;
+    }
+    &__text {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 2.14;
+      /* or 30px */
+
+      text-align: center;
+      letter-spacing: 0.04em;
+
+      color: #000000;
+      background-size: 42px 58px;
+    }
+
+    &__item {
+      width: 620px;
+    }
+    &__box {
+      padding: 47px 80px 34px 80px;
+      z-index: 2;
+      position: relative;
+      &::before {
+        top: 30px;
+        left: 40px;
+      }
+      &::after {
+        bottom: -24px;
+      }
+    }
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .reviews {
+        &__box {
+          &::after {
+            background-image: url('../images/reviews/dots@2x.png');
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews {
+    &__container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    &__avatar {
+      margin: 0 auto 15px;
+    }
+    &__text {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 186%;
+      /* or 30px */
+
+      text-align: center;
+      letter-spacing: 0.04em;
+
+      color: #000000;
+      background-size: 42px 58px;
+    }
+
+    &__item {
+      width: 926px;
+    }
+    &__box {
+      padding: 47px 89px 39px 87px;
+      z-index: 2;
+      position: relative;
+      &::before {
+        top: 32px;
+        left: 50px;
+      }
+      &::after {
+        bottom: -15px;
+      }
+    }
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .reviews {
+      &__box {
+        &::after {
+          background-image: url('../images/reviews/dots@2x.png');
+        }
+      }
+    }
+  }
+}
