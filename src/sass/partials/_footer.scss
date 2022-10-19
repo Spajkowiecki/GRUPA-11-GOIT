@@ -52,6 +52,13 @@ footer {
   &__item {
     cursor: pointer;
   }
+  &__icon {
+    fill: #fea5bb;
+    &:hover,
+    &:focus {
+      fill: #d41443;
+    }
+  }
   &__contact {
     font-size: 13px;
     margin-top: 46px;
