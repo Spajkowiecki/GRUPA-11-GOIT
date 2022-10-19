@@ -4,15 +4,17 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+@import './variables';
 @import './resets';
 @import './setup';
-
-@import './partials/footer';
-
 @import './components/all';
-@import './partials/all';
+@import './partials/header';
+@import './partials/mobile-menu';
+@import './partials/hero';
 @import './partials/products';
-@import './partials/gallery';
-@import './partials/advantages';
-@import './partials/reviews';
 @import './partials/about';
+@import './partials/advantages';
+@import './partials/gallery';
+@import './partials/reviews';
+@import './partials/contact';
+@import './partials/footer';
