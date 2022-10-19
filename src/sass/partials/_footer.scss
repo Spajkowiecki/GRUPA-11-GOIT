@@ -3,16 +3,22 @@
 footer {
   background-color: getColor('c_ultraLightPink');
   font-weight: 700;
-  .container {
+  .footer__container {
     min-width: 320px;
     padding: 0 20px;
-    @media screen and (min-width: 767px) {
+    margin: 0 auto;
+    @media screen and (min-width: 480px) {
+      width: 480px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 768px;
       padding: 0 36px;
       display: flex;
       justify-content: space-between;
     }
-    @media screen and (min-width: 1199px) {
-      max-width: 1045px;
+    @media screen and (min-width: 1280px) {
+      width: 1280px;
+      padding: 0 121px 0 114px;
       margin: 0 auto;
     }
   }
@@ -52,9 +58,17 @@ footer {
   &__item {
     cursor: pointer;
   }
+  &__icon {
+    fill: #fea5bb;
+    &:hover,
+    &:focus {
+      fill: #d41443;
+    }
+  }
   &__contact {
     font-size: 13px;
     margin-top: 46px;
+    margin-bottom: 43px;
     @include common-font;
     @media screen and (min-width: 1199px) {
       margin-top: 50px;
