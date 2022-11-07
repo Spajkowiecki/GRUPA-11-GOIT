@@ -1164,17 +1164,26 @@ MAIN SETTINGS OF PROJECT
     background-image: url("../images/products/shake_big@2x.png");
   }
 }
+/*
+MAIN SETTINGS OF PROJECT
+*/
 .about-container {
-  padding: 116px 0 39px 0;
+  padding-top: 125px;
   width: 100%;
   margin: auto;
   background-color: #fff5f6;
 }
 
+.about {
+  background-image: url(../images/about/about-bg.png);
+  background-position: 0% 122%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
 .about__header {
   text-align: center;
   align-items: center;
-  margin-left: auto;
   padding: 0 60px 26px;
 }
 .about__label {
@@ -1190,10 +1199,9 @@ MAIN SETTINGS OF PROJECT
   padding-top: 15px;
 }
 .about__label, .about__title {
-  font-family: "Titan One";
+  font-family: "Titan One", cursive;
   font-weight: 400;
   margin: 0;
-  padding: 0;
 }
 
 .about-descr {
@@ -1203,36 +1211,40 @@ MAIN SETTINGS OF PROJECT
 }
 .about-descr__img {
   width: 100%;
-  max-width: 280px;
+  max-width: 480px;
   display: block;
   margin: auto;
 }
 .about-descr__background {
   background-image: url(../images/about/about-bg.png);
-  max-width: 320px;
+  max-width: 480px;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 0% 82%;
   background-size: contain;
 }
 .about-descr__box {
   padding: 46px 50px 0;
   margin: auto;
+  width: 100%;
+  max-width: 480px;
 }
 .about-descr__text {
   color: #907e82;
-  font-family: "DM Sans";
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.62;
-  padding-bottom: 20px;
 }
 .about-descr__text--black {
-  color: #000000;
+  color: #000;
   padding-bottom: 25px;
 }
+.about-descr__text--padding {
+  padding-bottom: 17px;
+}
 .about-descr__btn {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #d41443;
   font-size: 14px;
   line-height: 1.28;
@@ -1244,6 +1256,11 @@ MAIN SETTINGS OF PROJECT
   max-width: 176px;
   width: 100%;
   border-radius: 22px;
+  margin: auto;
+  margin-top: 17px;
+}
+.about-descr__btn:hover {
+  background-color: #ecebeb;
 }
 .about-descr__btn-icon {
   margin-left: 13.62px;
@@ -1253,12 +1270,21 @@ MAIN SETTINGS OF PROJECT
   margin: 0;
 }
 
-/*.about-desrc__read {
-  border radius:4%;
-  border 1 px solid #d41443;
-  background-color: #ffa5ba;
-  padding:20px;
-  color:#907e82; */
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about-descr__background {
+    background-image: url(../images/about/about-bg-@2x.png);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .about {
+    background-image: url(../images/about/about-bg-@2x.png);
+  }
+}
+@media screen and (max-width: 1279px) {
+  .about {
+    background-image: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .about-descr__background {
     background-image: none;
@@ -1267,17 +1293,51 @@ MAIN SETTINGS OF PROJECT
     display: flex;
     flex-direction: row;
   }
-  .about-descr__img {
-    margin-right: 0;
-  }
   .about-descr__box {
     margin-left: 0;
     padding-left: 17px;
+    padding-right: 0;
+    max-width: 340px;
+  }
+  .about-descr__img {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-container {
+    padding-top: 130px;
+  }
+  .about__title {
+    padding-top: 16px;
+  }
+  .about-descr__text {
+    font-size: 14px;
+    line-height: 1.78;
+  }
+  .about-descr__text--black {
+    color: #000000;
+    padding-bottom: 25px;
+  }
+  .about-descr__btn {
+    margin-top: 62px;
+  }
+  .about-descr__img {
+    margin-top: 0;
+    width: 100%;
+    max-width: 340px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about__header {
     padding-bottom: 0px;
+  }
+  .about__label {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .about__title {
+    font-size: 58px;
+    line-height: 1.13;
   }
   .about-descr {
     gap: 74px;
@@ -1293,20 +1353,20 @@ MAIN SETTINGS OF PROJECT
     max-width: 463px;
     padding-left: 0px;
     padding-top: 0;
-    padding-right: 50;
+    padding-right: 0;
   }
-  .about-desrc__text {
+  .about-descr__text {
     font-size: 14px;
-    line-height: 1.94;
+    line-height: 1.928;
     padding-bottom: 20px;
-    letter-spacing: 0.56px;
+    letter-spacing: 0.04em;
   }
-  .about-desrc__text--black {
+  .about-descr__text--black {
     padding-bottom: 35px;
     font-size: 16px;
     line-height: 1.76;
   }
   .about-descr__btn {
-    margin-top: 30px;
+    margin-top: 45px;
   }
 }/*# sourceMappingURL=main.css.map */
